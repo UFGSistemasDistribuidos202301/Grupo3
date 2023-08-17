@@ -66,15 +66,20 @@ class Controle(object):
         para uma determinada rua.
         """
         sum = 0
+        total_cars = 0;
         now = datetime.now()
         
         for v in self.__velocities[street-1]:
             date_obj = datetime.strptime(v["time"], '%Y-%m-%d %H:%M:%S.%f')
             if(date_obj > (now - timedelta(minutes=5))):
                 sum+=int(v["velocity"])
+                total_cars += int(v["cars"])
 
-        return sum/len(self.__velocities[street-1])
-    
+        if total_cars > 0:
+            return sum/len(self.__velocities[street-1])
+        else:
+            return 0
+
     def count_signal_open_time(self, semaforo_id):
         if semaforo_id in self.__semaforos_abertos and self.__semaforos_abertos[semaforo_id]:
             current_time = datetime.now()
@@ -121,7 +126,21 @@ class Controle(object):
                 self.log("High Traffic Volume on Street {}".format(street))
                 increased_open_time = 10  # Valor de exemplo para aumentar o tempo
                 self.adjust_signal_timing(street, increased_open_time)
-                
+            
+            # Outras funcionalidades de gerenciamento...
+
+            # Reparar
+            ## Relação num_cars e media
+
+            # Implementar e avisar quando um sinal fecha e outro abre
+            ## implementar tempo verde passando
+            ## implementar o fechamento depois do tempo verde acabar
+
+            # Implementar acontecimentos de sinal fechado
+            ## Número de carros aumenta
+            ## Velocidade diminui
+
+
         except Exception as e:
             print(e)
 

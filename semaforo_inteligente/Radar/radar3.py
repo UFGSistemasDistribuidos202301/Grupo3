@@ -13,6 +13,11 @@ except ImportError:
 
 class Radar(object):
     def __init__(self):
+        """
+        simula um radar de tráfego que gera
+        dados de velocidade aleatórios
+        e os publica no tópico MQTT.
+        """
         self.__id = 3
         self.__topic = 'dados_trafego'
         self.__client = mqtt.Client()
@@ -33,12 +38,19 @@ class Radar(object):
             pass    
  
     def publish_vel(self):
+        """
+        Simula a geração de dados de velocidade
+        e a publicação em um tópico MQTT a cada 3s.
+        Em um loop infinito, gera uma velocidade
+        aleatória entre 20.0 e 80.0 km/h.
+        """
         while(True):
             velocity = random.uniform(20.0, 80.0)
-            msg = {"street": self.__id, "velocity": velocity, "time": str(datetime.now())}
+            num_cars = random.randint(0, 100)
+            msg = {"street": self.__id, "cars": num_cars, "velocity": velocity, "time": str(datetime.now())}
             self.log(msg)
             self.__client.publish(self.__topic, json.dumps(msg))
-            time.sleep(2)
+            time.sleep(3)
 
 if __name__ == '__main__':
     try:
