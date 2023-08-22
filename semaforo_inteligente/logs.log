@@ -1,10 +1,235 @@
-2023-07-14 20:03:24.458860 - Street: 1, Velocity: 33.0
-2023-07-14 20:03:26.459675 - Street: 1, Velocity: 34.0
-2023-07-14 20:03:28.462786 - Street: 1, Velocity: 37.333333333333336
-2023-07-14 20:03:30.465201 - Street: 1, Velocity: 34.0
-2023-07-14 20:03:32.468510 - Street: 1, Velocity: 41.8
-2023-07-14 20:03:34.472484 - Street: 1, Velocity: 40.333333333333336
-2023-07-14 20:03:36.476028 - Street: 1, Velocity: 38.857142857142854
-2023-07-14 20:03:38.477401 - Street: 1, Velocity: 36.875
-2023-07-14 20:03:40.479756 - Street: 1, Velocity: 39.77777777777778
-2023-07-14 20:03:42.480902 - Street: 1, Velocity: 40.7
+2023-08-17 15:10:35.600731 - Street: 1, Velocity: 59.0
+2023-08-17 15:10:36.572656 - Street: 2, Velocity: 31.0
+2023-08-17 15:10:37.600956 - Street: 1, Velocity: 67.0
+2023-08-17 15:10:37.602572 - High Traffic Volume on Street 1
+2023-08-17 15:10:37.604204 - Adjusting Signal Timing for Semaforo 1: New Open Time = 10.0 seconds
+2023-08-17 15:10:38.577281 - Street: 2, Velocity: 53.5
+2023-08-17 15:10:39.604987 - Street: 1, Velocity: 62.666666666666664
+2023-08-17 15:10:39.606897 - High Traffic Volume on Street 1
+2023-08-17 15:10:39.608667 - Adjusting Signal Timing for Semaforo 1: New Open Time = 20.0 seconds
+2023-08-17 15:10:40.581507 - Street: 2, Velocity: 42.666666666666664
+2023-08-17 15:10:41.609170 - Street: 1, Velocity: 59.25
+2023-08-17 15:10:42.584883 - Street: 2, Velocity: 47.75
+2023-08-17 15:10:43.612725 - Street: 1, Velocity: 62.0
+2023-08-17 15:10:43.614215 - High Traffic Volume on Street 1
+2023-08-17 15:10:43.615487 - Adjusting Signal Timing for Semaforo 1: New Open Time = 30.0 seconds
+2023-08-17 15:10:44.588726 - Street: 2, Velocity: 51.0
+2023-08-17 15:10:45.617059 - Street: 1, Velocity: 64.16666666666667
+2023-08-17 15:10:45.618315 - High Traffic Volume on Street 1
+2023-08-17 15:10:45.620132 - Adjusting Signal Timing for Semaforo 1: New Open Time = 40.0 seconds
+2023-08-17 15:10:46.592812 - Street: 2, Velocity: 50.333333333333336
+2023-08-17 15:10:47.621321 - Street: 1, Velocity: 59.857142857142854
+2023-08-17 15:10:48.597001 - Street: 2, Velocity: 47.57142857142857
+2023-08-17 15:10:49.625584 - Street: 1, Velocity: 55.0
+2023-08-17 15:10:50.599993 - Street: 2, Velocity: 47.125
+2023-08-17 15:10:51.628243 - Street: 1, Velocity: 54.0
+2023-08-17 15:10:52.604284 - Street: 2, Velocity: 49.111111111111114
+2023-08-17 15:10:53.632932 - Street: 1, Velocity: 50.9
+2023-08-17 15:10:54.608515 - Street: 2, Velocity: 47.5
+2023-08-17 15:10:55.636497 - Street: 1, Velocity: 47.2
+2023-08-17 15:10:56.613264 - Street: 2, Velocity: 51.8
+2023-08-17 15:10:57.641235 - Street: 1, Velocity: 42.0
+2023-08-17 15:10:58.616573 - Street: 2, Velocity: 51.6
+2023-08-17 15:10:59.645713 - Street: 1, Velocity: 40.4
+2023-08-17 15:11:00.621263 - Street: 2, Velocity: 53.9
+2023-08-17 15:11:01.649668 - Street: 1, Velocity: 38.9
+2023-08-17 15:11:02.625099 - Street: 2, Velocity: 52.0
+2023-08-17 15:11:03.656668 - Street: 1, Velocity: 37.7
+2023-08-17 15:11:04.629082 - Street: 2, Velocity: 47.6
+2023-08-17 15:11:05.661082 - Street: 1, Velocity: 33.5
+2023-08-17 15:11:06.633469 - Street: 2, Velocity: 45.6
+2023-08-17 15:11:07.665141 - Street: 1, Velocity: 34.3
+2023-08-17 15:11:08.636988 - Street: 2, Velocity: 46.8
+2023-08-17 15:11:09.669550 - Street: 1, Velocity: 36.6
+2023-08-17 15:11:10.644199 - Street: 2, Velocity: 48.0
+2023-08-17 15:11:11.673098 - Street: 1, Velocity: 38.3
+2023-08-17 15:11:12.647795 - Street: 2, Velocity: 45.2
+2023-08-17 15:11:13.677460 - Street: 1, Velocity: 41.9
+2023-08-17 15:11:14.654875 - Street: 2, Velocity: 49.6
+2023-08-17 15:11:15.681937 - Street: 1, Velocity: 45.0
+2023-08-17 15:11:16.658847 - Street: 2, Velocity: 47.4
+2023-08-17 15:11:17.688831 - Street: 1, Velocity: 44.9
+2023-08-17 15:11:18.660413 - Street: 2, Velocity: 44.9
+2023-08-17 15:11:19.692526 - Street: 1, Velocity: 48.5
+2023-08-17 15:11:20.665155 - Street: 2, Velocity: 43.5
+2023-08-17 15:11:21.696606 - Street: 1, Velocity: 47.3
+2023-08-17 15:11:22.669609 - Street: 2, Velocity: 45.0
+2023-08-17 15:11:23.700743 - Street: 1, Velocity: 44.0
+2023-08-17 15:11:24.673715 - Street: 2, Velocity: 46.9
+2023-08-17 15:11:25.704584 - Street: 1, Velocity: 43.5
+2023-08-17 15:11:26.676690 - Street: 2, Velocity: 47.1
+2023-08-17 15:11:27.708780 - Street: 1, Velocity: 41.7
+2023-08-17 15:11:28.680673 - Street: 2, Velocity: 45.3
+2023-08-17 15:11:29.712898 - Street: 1, Velocity: 39.8
+2023-08-17 15:11:30.685113 - Street: 2, Velocity: 46.3
+2023-08-17 15:11:31.717016 - Street: 1, Velocity: 38.6
+2023-08-17 15:11:32.689626 - Street: 2, Velocity: 44.7
+2023-08-17 15:11:33.721110 - Street: 1, Velocity: 34.8
+2023-08-17 15:11:34.693902 - Street: 2, Velocity: 42.9
+2023-08-17 15:11:35.725122 - Street: 1, Velocity: 32.8
+2023-08-17 15:11:36.698057 - Street: 2, Velocity: 43.7
+2023-08-17 15:11:37.729247 - Street: 1, Velocity: 32.6
+2023-08-17 15:11:38.702297 - Street: 2, Velocity: 41.2
+2023-08-17 15:11:39.732740 - Street: 1, Velocity: 30.2
+2023-08-17 15:11:40.704860 - Street: 2, Velocity: 41.2
+2023-08-17 15:11:41.737044 - Street: 1, Velocity: 30.3
+2023-08-17 15:11:42.708579 - Street: 2, Velocity: 37.8
+2023-08-17 15:11:43.741210 - Street: 1, Velocity: 34.2
+2023-08-17 15:11:44.712640 - Street: 2, Velocity: 37.4
+2023-08-17 15:11:45.745044 - Street: 1, Velocity: 36.9
+2023-08-17 15:11:46.716505 - Street: 2, Velocity: 38.6
+2023-08-17 15:11:47.749259 - Street: 1, Velocity: 38.9
+2023-08-17 15:11:48.720958 - Street: 2, Velocity: 40.5
+2023-08-17 15:11:49.753711 - Street: 1, Velocity: 42.7
+2023-08-17 15:11:50.726396 - Street: 2, Velocity: 38.6
+2023-08-17 15:11:51.757069 - Street: 1, Velocity: 43.3
+2023-08-17 15:11:52.728853 - Street: 2, Velocity: 41.1
+2023-08-17 15:11:53.761209 - Street: 1, Velocity: 46.1
+2023-08-17 15:11:54.733640 - Street: 2, Velocity: 39.7
+2023-08-17 15:11:55.764583 - Street: 1, Velocity: 50.2
+2023-08-17 15:11:56.737179 - Street: 2, Velocity: 38.2
+2023-08-17 15:11:57.768787 - Street: 1, Velocity: 50.3
+2023-08-17 15:11:58.744004 - Street: 2, Velocity: 43.2
+2023-08-17 15:11:59.771546 - Street: 1, Velocity: 51.4
+2023-08-17 15:12:00.748166 - Street: 2, Velocity: 43.8
+2023-08-17 15:12:01.775258 - Street: 1, Velocity: 55.6
+2023-08-17 15:12:02.752198 - Street: 2, Velocity: 48.9
+2023-08-17 15:12:03.779705 - Street: 1, Velocity: 53.0
+2023-08-17 15:12:04.757026 - Street: 2, Velocity: 50.5
+2023-08-17 15:12:05.784125 - Street: 1, Velocity: 52.9
+2023-08-17 15:12:06.760193 - Street: 2, Velocity: 50.5
+2023-08-17 15:12:07.787941 - Street: 1, Velocity: 52.8
+2023-08-17 15:12:08.764121 - Street: 2, Velocity: 53.8
+2023-08-17 15:12:09.792699 - Street: 1, Velocity: 53.7
+2023-08-17 15:12:10.768250 - Street: 2, Velocity: 54.2
+2023-08-17 15:12:11.796202 - Street: 1, Velocity: 52.5
+2023-08-17 15:12:12.771865 - Street: 2, Velocity: 57.1
+2023-08-17 15:12:13.801117 - Street: 1, Velocity: 53.4
+2023-08-17 15:12:14.776228 - Street: 2, Velocity: 57.6
+2023-08-17 15:12:15.805347 - Street: 1, Velocity: 53.8
+2023-08-17 15:12:16.780578 - Street: 2, Velocity: 56.6
+2023-08-17 15:12:17.810558 - Street: 1, Velocity: 55.5
+2023-08-17 15:12:18.785115 - Street: 2, Velocity: 56.5
+2023-08-17 15:12:19.814426 - Street: 1, Velocity: 52.6
+2023-08-17 15:12:20.789186 - Street: 2, Velocity: 55.6
+2023-08-17 15:12:21.816614 - Street: 1, Velocity: 50.6
+2023-08-17 15:12:22.792561 - Street: 2, Velocity: 54.4
+2023-08-17 15:12:23.821240 - Street: 1, Velocity: 52.8
+2023-08-17 15:12:24.796847 - Street: 2, Velocity: 51.5
+2023-08-17 15:12:25.826408 - Street: 1, Velocity: 55.2
+2023-08-17 15:12:26.800643 - Street: 2, Velocity: 52.6
+2023-08-17 15:12:27.830807 - Street: 1, Velocity: 53.3
+2023-08-17 15:12:28.804837 - Street: 2, Velocity: 48.9
+2023-08-17 15:12:29.832816 - Street: 1, Velocity: 52.3
+2023-08-17 15:12:30.809156 - Street: 2, Velocity: 47.9
+2023-08-17 15:12:31.837986 - Street: 1, Velocity: 52.6
+2023-08-17 15:12:32.812976 - Street: 2, Velocity: 43.8
+2023-08-17 15:12:33.842578 - Street: 1, Velocity: 53.6
+2023-08-17 15:12:34.816890 - Street: 2, Velocity: 43.5
+2023-08-17 15:12:35.846296 - Street: 1, Velocity: 49.7
+2023-08-17 15:12:36.821023 - Street: 2, Velocity: 47.7
+2023-08-17 15:12:37.851182 - Street: 1, Velocity: 53.6
+2023-08-17 15:12:38.825681 - Street: 2, Velocity: 46.1
+2023-08-17 15:12:39.855524 - Street: 1, Velocity: 55.2
+2023-08-17 15:12:40.829966 - Street: 2, Velocity: 45.8
+2023-08-17 15:12:41.858620 - Street: 1, Velocity: 57.7
+2023-08-17 15:12:42.834138 - Street: 2, Velocity: 43.8
+2023-08-17 15:12:43.862647 - Street: 1, Velocity: 56.1
+2023-08-17 15:12:44.838830 - Street: 2, Velocity: 44.0
+2023-08-17 15:12:45.866864 - Street: 1, Velocity: 55.3
+2023-08-17 15:12:46.841380 - Street: 2, Velocity: 42.5
+2023-08-17 15:12:47.871064 - Street: 1, Velocity: 60.3
+2023-08-17 15:12:47.873525 - High Traffic Volume on Street 1
+2023-08-17 15:12:47.875180 - Adjusting Signal Timing for Semaforo 1: New Open Time = 50.0 seconds
+2023-08-17 15:12:48.844968 - Street: 2, Velocity: 41.3
+2023-08-17 15:12:49.875015 - Street: 1, Velocity: 60.9
+2023-08-17 15:12:49.877402 - High Traffic Volume on Street 1
+2023-08-17 15:12:49.878913 - Adjusting Signal Timing for Semaforo 1: New Open Time = 60.0 seconds
+2023-08-17 15:12:50.848983 - Street: 2, Velocity: 42.4
+2023-08-17 15:12:51.879272 - Street: 1, Velocity: 59.2
+2023-08-17 15:12:52.852946 - Street: 2, Velocity: 41.8
+2023-08-17 15:12:53.883189 - Street: 1, Velocity: 58.7
+2023-08-17 15:12:54.857206 - Street: 2, Velocity: 41.5
+2023-08-17 15:12:55.887811 - Street: 1, Velocity: 61.0
+2023-08-17 15:12:55.889210 - High Traffic Volume on Street 1
+2023-08-17 15:12:55.890719 - Adjusting Signal Timing for Semaforo 1: New Open Time = 70.0 seconds
+2023-08-17 15:12:56.861123 - Street: 2, Velocity: 39.4
+2023-08-17 15:12:57.892093 - Street: 1, Velocity: 60.6
+2023-08-17 15:12:57.894291 - High Traffic Volume on Street 1
+2023-08-17 15:12:57.896036 - Adjusting Signal Timing for Semaforo 1: New Open Time = 80.0 seconds
+2023-08-17 15:12:58.868252 - Street: 2, Velocity: 38.2
+2023-08-17 15:12:59.895990 - Street: 1, Velocity: 58.5
+2023-08-17 15:13:00.872641 - Street: 2, Velocity: 42.8
+2023-08-17 15:13:01.899857 - Street: 1, Velocity: 53.8
+2023-08-17 15:13:02.876298 - Street: 2, Velocity: 44.2
+2023-08-17 15:13:03.904261 - Street: 1, Velocity: 53.0
+2023-08-17 15:13:04.880746 - Street: 2, Velocity: 48.2
+2023-08-17 15:13:05.908354 - Street: 1, Velocity: 51.5
+2023-08-17 15:13:06.884278 - Street: 2, Velocity: 48.3
+2023-08-17 15:13:07.912459 - Street: 1, Velocity: 49.3
+2023-08-17 15:13:08.888306 - Street: 2, Velocity: 49.3
+2023-08-17 15:13:09.917334 - Street: 1, Velocity: 49.6
+2023-08-17 15:13:10.893277 - Street: 2, Velocity: 49.6
+2023-08-17 15:13:11.921224 - Street: 1, Velocity: 52.1
+2023-08-17 15:13:12.896901 - Street: 2, Velocity: 49.4
+2023-08-17 15:13:13.925048 - Street: 1, Velocity: 51.4
+2023-08-17 15:13:14.900939 - Street: 2, Velocity: 47.2
+2023-08-17 15:13:15.929642 - Street: 1, Velocity: 52.4
+2023-08-17 15:13:16.905388 - Street: 2, Velocity: 45.9
+2023-08-17 15:13:17.936534 - Street: 1, Velocity: 51.7
+2023-08-17 15:13:18.909113 - Street: 2, Velocity: 48.8
+2023-08-17 15:13:19.940248 - Street: 1, Velocity: 55.9
+2023-08-17 15:13:20.913024 - Street: 2, Velocity: 45.2
+2023-08-17 15:13:21.944448 - Street: 1, Velocity: 58.5
+2023-08-17 15:13:22.917243 - Street: 2, Velocity: 42.6
+2023-08-17 15:13:23.948808 - Street: 1, Velocity: 59.7
+2023-08-17 15:13:24.921327 - Street: 2, Velocity: 39.6
+2023-08-17 15:13:25.953133 - Street: 1, Velocity: 61.4
+2023-08-17 15:13:25.954601 - High Traffic Volume on Street 1
+2023-08-17 15:13:25.956102 - Adjusting Signal Timing for Semaforo 1: New Open Time = 90.0 seconds
+2023-08-17 15:13:26.925599 - Street: 2, Velocity: 42.5
+2023-08-17 15:13:27.957950 - Street: 1, Velocity: 64.0
+2023-08-17 15:13:27.959394 - High Traffic Volume on Street 1
+2023-08-17 15:13:27.961471 - Adjusting Signal Timing for Semaforo 1: New Open Time = 100.0 seconds
+2023-08-17 15:13:28.929052 - Street: 2, Velocity: 43.3
+2023-08-17 15:13:29.962341 - Street: 1, Velocity: 64.2
+2023-08-17 15:13:29.964273 - High Traffic Volume on Street 1
+2023-08-17 15:13:29.965640 - Adjusting Signal Timing for Semaforo 1: New Open Time = 110.0 seconds
+2023-08-17 15:13:30.933005 - Street: 2, Velocity: 40.9
+2023-08-17 15:13:31.965749 - Street: 1, Velocity: 61.7
+2023-08-17 15:13:31.968140 - High Traffic Volume on Street 1
+2023-08-17 15:13:31.969626 - Adjusting Signal Timing for Semaforo 1: New Open Time = 120.0 seconds
+2023-08-17 15:13:32.937152 - Street: 2, Velocity: 45.1
+2023-08-17 15:13:33.969125 - Street: 1, Velocity: 61.6
+2023-08-17 15:13:33.970670 - High Traffic Volume on Street 1
+2023-08-17 15:13:33.972325 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-17 15:13:34.940931 - Street: 2, Velocity: 50.0
+2023-08-17 15:13:35.973234 - Street: 1, Velocity: 58.3
+2023-08-17 15:13:36.946058 - Street: 2, Velocity: 50.9
+2023-08-17 15:13:37.976828 - Street: 1, Velocity: 58.0
+2023-08-17 15:13:38.949312 - Street: 2, Velocity: 46.3
+2023-08-17 15:13:39.980962 - Street: 1, Velocity: 56.5
+2023-08-17 15:13:40.952843 - Street: 2, Velocity: 45.4
+2023-08-17 15:13:41.986141 - Street: 1, Velocity: 55.1
+2023-08-17 15:13:42.956575 - Street: 2, Velocity: 45.4
+2023-08-17 15:13:43.989624 - Street: 1, Velocity: 57.8
+2023-08-17 15:13:44.960862 - Street: 2, Velocity: 48.0
+2023-08-17 15:13:45.992571 - Street: 1, Velocity: 55.0
+2023-08-17 15:13:46.964631 - Street: 2, Velocity: 44.7
+2023-08-17 15:13:47.996712 - Street: 1, Velocity: 50.3
+2023-08-17 15:13:48.968763 - Street: 2, Velocity: 46.5
+2023-08-17 15:13:50.001599 - Street: 1, Velocity: 49.4
+2023-08-17 15:13:50.972832 - Street: 2, Velocity: 46.8
+2023-08-17 15:13:52.006180 - Street: 1, Velocity: 52.3
+2023-08-17 15:13:52.977198 - Street: 2, Velocity: 46.4
+2023-08-17 15:13:54.008693 - Street: 1, Velocity: 50.0
+2023-08-17 15:13:54.981240 - Street: 2, Velocity: 46.1
+2023-08-17 15:13:56.012807 - Street: 1, Velocity: 50.0
+2023-08-17 15:13:56.983982 - Street: 2, Velocity: 45.8
+2023-08-17 15:13:58.017723 - Street: 1, Velocity: 46.3
+2023-08-17 15:13:58.988620 - Street: 2, Velocity: 46.7
+2023-08-17 15:14:00.021925 - Street: 1, Velocity: 43.3
+2023-08-17 15:14:00.993067 - Street: 2, Velocity: 50.4
+2023-08-17 15:14:02.026438 - Street: 1, Velocity: 46.9
+2023-08-17 15:14:02.997358 - Street: 2, Velocity: 52.1
+2023-08-17 15:14:04.031613 - Street: 1, Velocity: 42.3
