@@ -36,6 +36,9 @@ class Controle(object):
         # inicia os semáforos ímpares como abertos
         self.__semaforos_abertos = {1: True, 2: False, 3: True, 4: False}
 
+        # dicionário para guardar o horario em que o semáforo foi aberto
+        self.__horario_verde = {1: datetime.now(), 2: None, 3: datetime.now(), 4: None}
+
         # ficará ouvindo as mensagens MQTT relacionadas aos dados de tráfego
         _thread.start_new_thread(self.subscribe_radar, ())
 
@@ -125,6 +128,33 @@ class Controle(object):
         decoded_message = json.loads(message.payload.decode())
         street = decoded_message["street"]
 
+        # controle do tempo em que um semáforo ficar aberto
+        # e fecha/abre novos semáforos caso possível
+        for semaforo, horario in self.__horario_verde.items():
+            if self.__semaforos_abertos[semaforo]:
+                time_passed = (datetime.now() - horario).seconds
+
+                if time_passed > self.__signal_open_time[semaforo].seconds:
+                    peer_id = ((semaforo + 1) % 4) + 1
+
+                    peer_closed = self.__signal_open_time[peer_id].seconds > \
+                                  self.__signal_open_time[semaforo].seconds
+
+                    if peer_closed:
+                        opening = datetime.now()
+
+                        for sem_id in [1, 2, 3, 4]:
+                            if sem_id in [semaforo, peer_id]:
+                                self.__semaforos_abertos[sem_id] = False
+                                self.__horario_verde = None
+                            else:
+                                self.__semaforos_abertos[sem_id] = True
+                                self.__horario_verde = opening
+                        
+                        self.log(f"Semaphors with ID {semaforo} and {peer_id} turned into red.")
+                        self.log(f"Semaphors with ID {(semaforo % 4) + 1} and {(peer_id % 4) + 1} turned into green.")
+                        break
+
         try:
             if len(self.__velocities[street - 1]) == 10:
                 self.__velocities[street - 1].pop(0)
@@ -132,6 +162,7 @@ class Controle(object):
             self.__velocities[street - 1].append(decoded_message)
             media = self.media(street)
             self.log("Street: {}, Velocity: {}".format(street, media))
+            print('opa')
 
             # Implementação do Volume de Tráfego e Densidade de Tráfego
             if media <= 20:  
@@ -147,10 +178,6 @@ class Controle(object):
 
             # Reparar
             ## Relação num_cars e media
-
-            # Implementar e avisar quando um sinal fecha e outro abre
-            ## implementar tempo verde passando
-            ## implementar o fechamento depois do tempo verde acabar
 
             # Implementar acontecimentos de sinal fechado
             ## Número de carros aumenta
