@@ -45,7 +45,7 @@ class Radar(object):
         aleatória entre 20.0 e 80.0 km/h.
         """
         while(True):
-            velocity = round(random.uniform(20.0, 80.0), 2)
+            velocity = round(random.uniform(5.0, 70.0), 2)
             num_cars = random.randint(0, 100)
             msg = {"street": self.__id, "cars": num_cars, "mean velocity": velocity, "time": str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))}
             self.log(msg)

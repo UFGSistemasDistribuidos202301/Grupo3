@@ -70,7 +70,7 @@ class Controle(object):
         now = datetime.now()
         
         for v in self.__velocities[street-1]:
-            date_obj = datetime.strptime(v["time"], '%Y-%m-%d %H:%M:%S.%f')
+            date_obj = datetime.strptime(v["time"], '%Y-%m-%d %H:%M:%S')
             if(date_obj > (now - timedelta(minutes=5))):
                 sum += int(v["velocity"])
                 total_cars += int(v["cars"])
