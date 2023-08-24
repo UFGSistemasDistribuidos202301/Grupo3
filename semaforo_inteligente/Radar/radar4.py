@@ -12,10 +12,12 @@ except ImportError:
     import trollius as asyncio
 
 class Radar(object):
-    def __init__(self):
+    def __init__(self, semaforos_abertos):
         self.__id = 4
         self.__topic = 'dados_trafego'
         self.__client = mqtt.Client()
+
+        self.__semaforos_abertos = semaforos_abertos  # Recebe o estado dos semáforos
 
         self.__client.connect(host='localhost', port=1883)
         self.__client.loop_start()
@@ -31,27 +33,35 @@ class Radar(object):
             self.__client.loop_stop()
         except:
             pass    
- 
+    
+    def adjust_data_on_signal_close(self):
+        self.__num_cars = min(self.__num_cars + 10, 100)  # Limita a 100 carros
+        self.__velocity = max(self.__velocity - 10, 0)  # Diminui a velocidade até 0        
+
     def publish_vel(self):
-        while(True):
-            num_cars = round(random.gauss(mu = 50, sigma = 20))
-            num_cars = num_cars if num_cars > 1 else 1
-
-            traffic_factor = (-1) * ((num_cars - 50) * 2) / 5
+        num_cars = 10
+        while True:
+            if self.__semaforos_abertos[self.__id]:
+                if num_cars > 0:
+                    num_cars -= 1  # Simula a saída de um carro da via
+            else:
+                if num_cars < 100:
+                    num_cars += 1  # Simula a entrada de um carro na via
             
-            velocity = round(random.gauss(mu = 40 + traffic_factor, sigma = 15), 2)
-            velocity =  velocity if velocity > 5 else 5
-
-            msg = {"street": self.__id, "cars": num_cars, "mean velocity": velocity, "time": str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))}
+            if num_cars == 100:
+                velocity = 0  # Velocidade 0 quando o número de carros atinge o máximo
+            else:
+                velocity = random.uniform(20.0, 80.0)
+            
+            msg = {"street": self.__id, "velocity": velocity, "cars": num_cars, "time": str(datetime.now())}
             self.log(msg)
-            print(msg)
-
             self.__client.publish(self.__topic, json.dumps(msg))
             time.sleep(2)
 
 if __name__ == '__main__':
     try:
-        radar = Radar()
+        semaforos_abertos = {1: True, 2: False, 3: True, 4: False}
+        radar = Radar(semaforos_abertos)
         
         try:
             asyncio.get_event_loop().run_forever()

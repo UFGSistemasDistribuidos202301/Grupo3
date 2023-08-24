@@ -27,22 +27,20 @@ class Controle(object):
         self.__velocities.append(list())
         self.__velocities.append(list())
 
-        self.__topic_semaforo = "semaforo_temporizadores"
-
         self.__topic_radar = "dados_trafego"
         self.__log_file = os.path.abspath(os.path.join(os.path.dirname( __file__ ),))+'/logs.log'
 
-         # Dicionário para armazenar o tempo aberto de cada semáforo (inicializado como 0)
-        self.__signal_open_time = {1: timedelta(seconds=15), 2: timedelta(seconds=15), 3: timedelta(seconds=15), 4: timedelta(seconds=15)}
+        # Dicionário para armazenar o tempo aberto de cada semáforo (inicializado como 0)
+        self.__signal_open_time = {1: timedelta(seconds=0), 2: timedelta(seconds=0), 3: timedelta(seconds=0), 4: timedelta(seconds=0)}
         
         # inicia os semáforos ímpares como abertos
         self.__semaforos_abertos = {1: True, 2: False, 3: True, 4: False}
 
-        # dicionário para guardar o horario em que o semáforo foi aberto
-        self.__horario_verde = {1: datetime.now(), 2: None, 3: datetime.now(), 4: None}
+        # inicia congestionamento como falso em todas as vias
+        self.__congestion_detected = {1: False, 2: False, 3: False, 4: False}
 
         # ficará ouvindo as mensagens MQTT relacionadas aos dados de tráfego
-        thread_id = _thread.start_new_thread(self.subscribe_radar, ())
+        _thread.start_new_thread(self.subscribe_radar, ())
 
     def log(self, msg):
         """
@@ -51,7 +49,7 @@ class Controle(object):
         Ele grava a data/hora atual e a mensagem passada como
         argumento no arquivo de log.
         """
-        string = '{} - {}'.format(str(datetime.now().strftime('%Y-%m-%d %H:%M:%S')), msg)
+        string = '{} - {}'.format(str(datetime.now()), msg)
         os.system(f"echo '{string}' >> {self.__log_file}")
     
     def loop_stop(self):
@@ -71,64 +69,85 @@ class Controle(object):
         para uma determinada rua.
         """
         sum = 0
-        total_cars = 0;
+        total_cars = len(self.__velocities[street-1]);
         now = datetime.now()
         
         for v in self.__velocities[street-1]:
-            date_obj = datetime.strptime(v["time"], '%Y-%m-%d %H:%M:%S')
+            date_obj = datetime.strptime(v["time"], '%Y-%m-%d %H:%M:%S.%f')
             if(date_obj > (now - timedelta(minutes=5))):
-                sum += int(v["mean velocity"])
-                total_cars += int(v["cars"])
+                sum+=int(v["velocity"])
+                #total_cars += int(v["cars"])
 
         if total_cars > 0:
-            return round(sum/len(self.__velocities[street-1]), 2)
+            return sum/total_cars
         else:
             return 0
 
-    def count_signal_open_time(self, semaforo_id):
-        if semaforo_id in self.__semaforos_abertos and self.__semaforos_abertos[semaforo_id]:
-            current_time = datetime.now()
-            signal_open_time = current_time - self.__signal_open_time[semaforo_id]
-            return signal_open_time.total_seconds()
+    def open_signal(self, semaforo_id):
+        if semaforo_id in self.__semaforos_abertos and not self.__semaforos_abertos[semaforo_id]:
+            self.__semaforos_abertos[semaforo_id] = True
+            self.__signal_start_time[semaforo_id] = datetime.now()  # Inicia o tempo de início
+            self.log("Opening Semaforo {}".format(semaforo_id))
         else:
-            return 0  # Retorna 0 se o sinal não estiver aberto
-    
+            self.log("Semaforo {} is already open or invalid.".format(semaforo_id))
+
+    def close_signal(self, semaforo_id):
+        if semaforo_id in self.__semaforos_abertos and self.__semaforos_abertos[semaforo_id]:
+            self.__semaforos_abertos[semaforo_id] = False
+            self.__signal_open_time[semaforo_id] = None
+            self.__signal_start_time[semaforo_id] = None
+
+            # Ajusta os dados do radar quando um sinal é fechado
+            for radar_id in self.__radares:
+                self.__radares[radar_id].adjust_data_on_signal_close()
+
+            self.log("Closing Semaforo {}".format(semaforo_id))
+        else:
+            self.log("Semaforo {} is already closed or invalid.".format(semaforo_id))
+
+    def loop_signal_management(self):
+        while True:
+            for semaforo_id in self.__semaforos_abertos:
+                if self.__semaforos_abertos[semaforo_id]:
+                    current_time = datetime.now()
+                    start_time = self.__signal_start_time[semaforo_id]
+                    if start_time is not None:
+                        elapsed_time = current_time - start_time
+                        if elapsed_time.total_seconds() >= self.__signal_open_time[semaforo_id].total_seconds():
+                            self.close_signal(semaforo_id)
+                            
+                            # Verifica se há congestionamento na via fechada
+                            if self.__congestion_detected[semaforo_id]:
+                                other_semaforo_id = self.get_other_semaforo_id(semaforo_id)
+                                if self.__semaforos_abertos[other_semaforo_id]:
+                                    self.open_signal(semaforo_id)
+                                else:
+                                    self.log(f"Cannot open Semaforo {semaforo_id} due to congestion and other signal being closed.")
+
+            time.sleep(1)  # Pausa de 1 segundo
+
     def adjust_signal_timing(self, semaforo_id, additional_time):
-        """
-        Esse método corrige o tempo em que o semáforo
-        ficará aberto. Não permite que um semáforo fique
-        mais de 120s (2 minutos) aberto.
-        """
         if semaforo_id in self.__semaforos_abertos:
-            if additional_time and self.__semaforos_abertos[semaforo_id]:
+            if additional_time > 0 and self.__semaforos_abertos[semaforo_id]:
                 current_open_time = self.__signal_open_time[semaforo_id]
                 new_open_time = current_open_time + timedelta(seconds=additional_time)
 
-                if new_open_time.seconds < 10:
-                    new_open_time = timedelta(seconds = 10)
-                
                 if new_open_time.total_seconds() <= 120:
                     self.__signal_open_time[semaforo_id] = new_open_time
-                    self.log("Adjusting Signal Timing for 'Semaforo {}': New Open Time = {} seconds".format(semaforo_id, new_open_time.total_seconds()))
-
-                    print("Adjusting Signal Timing for 'Semaforo {}': New Open Time = {} seconds".format(semaforo_id, new_open_time.total_seconds()))
-                
-                    if semaforo_id == 1:
-                        self.__client.publish(self.__topic_semaforo, json.dumps(f'Adjust open time to {new_open_time.total_seconds()}s'))
+                    self.__signal_start_time[semaforo_id] = datetime.now()  # Atualiza o tempo de início
+                    self.log("Adjusting Signal Timing for Semaforo {}: New Open Time = {} seconds".format(semaforo_id, new_open_time.total_seconds()))
                 else:
-                    self.log("Maximum Green Time Exceeded for 'Semaforo {}'. No further adjustment.".format(semaforo_id))
+                    self.log("Maximum Green Time Exceeded for Semaforo {}. No further adjustment.".format(semaforo_id))
             else:
-                self.log("Invalid Additional Time or 'Semaforo {}' is not open. No adjustment.".format(semaforo_id))
+                # Verifica se há congestionamento na outra via e o sinal está fechado
+                other_semaforo_id = 1 if semaforo_id == 2 else 2  # Supondo que estamos tratando dos semáforos 1 e 2
+                if self.__congestion_detected[other_semaforo_id] and not self.__semaforos_abertos[other_semaforo_id]:
+                    time_to_open = self.count_signal_open_time(other_semaforo_id)  # Tempo estimado para abrir o sinal da outra via
+                    self.log("Semaforo {} timing adjustment due to congestion. Sinal {} will open after {} seconds when timing from Semaforo {} ends.".format(semaforo_id, other_semaforo_id, time_to_open, semaforo_id))
         else:
-            self.log("Invalid ID: {}. No adjustment.".format(semaforo_id))
+            self.log("Invalid Semaforo ID: {}. No adjustment.".format(semaforo_id))
 
     def count_signal_open_time(self, semaforo_id):
-        """
-        Esse método verifica se semaforo_id é um id
-        válido e, caso positivo, verifica se está verde
-        retornando o tempo em segundos em que permanece
-        aberto.
-        """
         if semaforo_id in self.__semaforos_abertos and self.__semaforos_abertos[semaforo_id]:
             return self.__signal_open_time[semaforo_id].total_seconds()
         else:
@@ -137,58 +156,44 @@ class Controle(object):
     def on_message_radar(self, client, userdata, message):
         decoded_message = json.loads(message.payload.decode())
         street = decoded_message["street"]
-
-        # controle do tempo em que um semáforo ficar aberto
-        # e fecha/abre novos semáforos caso possível
-
-        for semaforo, horario in self.__horario_verde.items():
-            if self.__semaforos_abertos[semaforo]:
-                time_passed = (datetime.now() - horario).seconds
-
-                if time_passed > self.__signal_open_time[semaforo].seconds:
-                    peer_id = ((semaforo + 1) % 4) + 1
-
-                    peer_closed = self.__signal_open_time[peer_id].seconds > \
-                                  self.__signal_open_time[semaforo].seconds
-
-                    if peer_closed:
-                        opening = datetime.now()
-
-                        for sem_id in [1, 2, 3, 4]:
-                            if sem_id in [semaforo, peer_id]:
-                                self.__semaforos_abertos[sem_id] = False
-                                self.__horario_verde[sem_id] = None
-                            else:
-                                self.__semaforos_abertos[sem_id] = True
-                                self.__horario_verde[sem_id] = opening
-                        
-                        self.log(f"Semaphors with ID {semaforo} and {peer_id} turned into red.")
-                        self.log(f"Semaphors with ID {(semaforo % 4) + 1} and {(peer_id % 4) + 1} turned into green.")
-
-                        print(f"Semaphors with ID {semaforo} and {peer_id} turned into red.")
-                        print(f"Semaphors with ID {(semaforo % 4) + 1} and {(peer_id % 4) + 1} turned into green.")
-                        break
-
         try:
             if len(self.__velocities[street - 1]) == 10:
                 self.__velocities[street - 1].pop(0)
 
             self.__velocities[street - 1].append(decoded_message)
             media = self.media(street)
-            self.log("Street: {}, Velocity: {}".format(street, media))
+            num_cars = int(decoded_message["cars"])  # Número de carros na via
 
-            # Implementação do Volume de Tráfego e Densidade de Tráfego
-            if media <= 25 and self.__semaforos_abertos[street]:  
-                self.log("High Traffic Volume on Street {}".format(street))
-                print("High Traffic Volume on Street {}".format(street))
-                
-                # o tempo será corrigido para tentar subir a velocidade média
-                # da via para 30 km/h
-                increased_open_time = round((30 / media) * self.__signal_open_time[street].seconds)
+            self.log("Street: {}, Velocity: {}, Num Cars: {}".format(street, media, num_cars))
+
+            # Se muito tráfego
+            if media > 60:
+                self.log("High Traffic Volume and Density on Street {}".format(street))
+                increased_open_time = 10  # Valor de exemplo para aumentar o tempo
                 self.adjust_signal_timing(street, increased_open_time)
-            elif media >= 50 and self.__semaforos_abertos[street]:
-                decrease_open_time = (-1) * round((50 / media) * self.__signal_open_time[street].seconds)
-                self.adjust_signal_timing(street, decrease_open_time)
+            
+            # Se está congestionado
+            if media < 20 and not self.__congestion_detected[street]:
+                self.log("Congestion Detected on Street {}".format(street))
+                self.__congestion_detected[street] = True
+                self.adjust_signal_timing(street, 20)  # Aumenta o tempo de sinal verde para aliviar o congestionamento
+            
+            # Se não está mais congestionado e o congestionamento foi detectado
+            elif media >= 20 and self.__congestion_detected[street]:
+                self.log("Congestion Cleared on Street {}".format(street))
+                self.__congestion_detected[street] = False
+                self.adjust_signal_timing(street, -20)  # Reduz o tempo de sinal verde após o congestionamento ser aliviado
+
+            """ TRABALHOS FUTUROS
+            - Sincronização de Semáforos:
+                -- Implemente a sincronização de semáforos ao longo de uma rota para permitir que um veículo mantenha um fluxo contínuo de tráfego.
+            - Priorização de Veículos de Emergência:
+                -- Implemente um sistema que detecta veículos de emergência (ambulâncias, carros de bombeiros) através de sensores ou sistemas GPS.
+            - Detecção de Pedestres:
+                -- Integrar sensores para detectar pedestres nas proximidades e ajustar o tempo de sinalização para garantir a segurança dos pedestres.
+            - Horário em consideração
+            - Histórico em consideração (ML)
+            """
 
         except Exception as e:
             print(e)
