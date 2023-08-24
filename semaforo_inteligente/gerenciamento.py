@@ -33,7 +33,7 @@ class Controle(object):
         self.__log_file = os.path.abspath(os.path.join(os.path.dirname( __file__ ),))+'/logs.log'
 
          # Dicionário para armazenar o tempo aberto de cada semáforo (inicializado como 0)
-        self.__signal_open_time = {1: timedelta(seconds=10), 2: timedelta(seconds=10), 3: timedelta(seconds=10), 4: timedelta(seconds=10)}
+        self.__signal_open_time = {1: timedelta(seconds=15), 2: timedelta(seconds=15), 3: timedelta(seconds=15), 4: timedelta(seconds=15)}
         
         # inicia os semáforos ímpares como abertos
         self.__semaforos_abertos = {1: True, 2: False, 3: True, 4: False}
@@ -103,6 +103,9 @@ class Controle(object):
             if additional_time and self.__semaforos_abertos[semaforo_id]:
                 current_open_time = self.__signal_open_time[semaforo_id]
                 new_open_time = current_open_time + timedelta(seconds=additional_time)
+
+                if new_open_time.seconds < 10:
+                    new_open_time = timedelta(seconds = 10)
                 
                 if new_open_time.total_seconds() <= 120:
                     self.__signal_open_time[semaforo_id] = new_open_time
@@ -175,7 +178,7 @@ class Controle(object):
             self.log("Street: {}, Velocity: {}".format(street, media))
 
             # Implementação do Volume de Tráfego e Densidade de Tráfego
-            if media <= 30 and self.__semaforos_abertos[street]:  
+            if media <= 25 and self.__semaforos_abertos[street]:  
                 self.log("High Traffic Volume on Street {}".format(street))
                 print("High Traffic Volume on Street {}".format(street))
                 
@@ -184,7 +187,7 @@ class Controle(object):
                 increased_open_time = round((30 / media) * self.__signal_open_time[street].seconds)
                 self.adjust_signal_timing(street, increased_open_time)
             elif media >= 50 and self.__semaforos_abertos[street]:
-                decrease_open_time = round((50 / media) * self.__signal_open_time[street].seconds)
+                decrease_open_time = (-1) * round((50 / media) * self.__signal_open_time[street].seconds)
                 self.adjust_signal_timing(street, decrease_open_time)
 
         except Exception as e:
