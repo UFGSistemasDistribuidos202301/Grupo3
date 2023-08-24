@@ -233,3 +233,1090 @@
 2023-08-17 15:14:02.026438 - Street: 1, Velocity: 46.9
 2023-08-17 15:14:02.997358 - Street: 2, Velocity: 52.1
 2023-08-17 15:14:04.031613 - Street: 1, Velocity: 42.3
+2023-08-23 21:05:48 - Street: 2, Velocity: 49.0
+2023-08-23 21:05:50 - Street: 2, Velocity: 52.5
+2023-08-23 21:05:52 - Street: 2, Velocity: 36.67
+2023-08-23 21:05:54 - Street: 2, Velocity: 41.25
+2023-08-23 21:05:56 - Street: 1, Velocity: 41.0
+2023-08-23 21:05:56 - Street: 2, Velocity: 38.6
+2023-08-23 21:05:58 - Street: 1, Velocity: 35.0
+2023-08-23 21:05:58 - Street: 2, Velocity: 41.67
+2023-08-23 21:06:00 - Street: 1, Velocity: 42.0
+2023-08-23 21:06:00 - Street: 2, Velocity: 41.86
+2023-08-23 21:06:02 - Street: 1, Velocity: 43.75
+2023-08-23 21:06:02 - Street: 2, Velocity: 42.0
+2023-08-23 21:06:04 - Street: 1, Velocity: 43.6
+2023-08-23 21:06:04 - Street: 2, Velocity: 41.78
+2023-08-23 21:07:02 - Street: 2, Velocity: 17.0
+2023-08-23 21:07:02 - High Traffic Volume on Street 2
+2023-08-23 21:07:04 - Street: 1, Velocity: 61.0
+2023-08-23 21:07:04 - Street: 2, Velocity: 26.0
+2023-08-23 21:07:05 - Street: 4, Velocity: 44.0
+2023-08-23 21:07:06 - Street: 1, Velocity: 58.0
+2023-08-23 21:07:06 - Street: 2, Velocity: 28.0
+2023-08-23 21:07:07 - Street: 3, Velocity: 20.0
+2023-08-23 21:07:07 - High Traffic Volume on Street 3
+2023-08-23 21:07:07 - Street: 4, Velocity: 43.5
+2023-08-23 21:07:08 - Street: 1, Velocity: 54.33
+2023-08-23 21:07:08 - Street: 2, Velocity: 27.25
+2023-08-23 21:07:09 - Street: 4, Velocity: 43.33
+2023-08-23 21:07:10 - Street: 3, Velocity: 35.0
+2023-08-23 21:07:10 - Street: 1, Velocity: 51.25
+2023-08-23 21:07:10 - Street: 2, Velocity: 33.0
+2023-08-23 21:07:11 - Street: 4, Velocity: 38.75
+2023-08-23 21:07:12 - Street: 1, Velocity: 46.4
+2023-08-23 21:07:12 - Street: 2, Velocity: 28.33
+2023-08-23 21:07:13 - Street: 3, Velocity: 36.0
+2023-08-23 21:07:13 - Street: 4, Velocity: 43.6
+2023-08-23 21:07:14 - Street: 1, Velocity: 43.83
+2023-08-23 21:07:14 - Street: 2, Velocity: 31.57
+2023-08-23 21:07:15 - Street: 4, Velocity: 43.5
+2023-08-23 21:07:16 - Street: 3, Velocity: 35.75
+2023-08-23 21:07:16 - Street: 1, Velocity: 44.71
+2023-08-23 21:07:16 - Street: 2, Velocity: 35.25
+2023-08-23 21:07:17 - Street: 4, Velocity: 43.57
+2023-08-23 21:07:18 - Street: 1, Velocity: 45.5
+2023-08-23 21:07:18 - Street: 2, Velocity: 38.22
+2023-08-23 21:07:19 - Street: 3, Velocity: 38.8
+2023-08-23 21:07:19 - Street: 4, Velocity: 45.25
+2023-08-23 21:07:20 - Street: 1, Velocity: 46.78
+2023-08-23 21:07:20 - Street: 2, Velocity: 40.3
+2023-08-23 21:07:21 - Street: 4, Velocity: 45.0
+2023-08-23 21:07:22 - Street: 3, Velocity: 40.33
+2023-08-23 21:07:22 - Street: 1, Velocity: 46.1
+2023-08-23 21:07:22 - Street: 2, Velocity: 47.2
+2023-08-23 21:07:23 - Street: 4, Velocity: 46.1
+2023-08-23 21:07:24 - Street: 1, Velocity: 42.4
+2023-08-23 21:07:24 - Street: 2, Velocity: 48.1
+2023-08-23 21:07:25 - Street: 3, Velocity: 40.43
+2023-08-23 21:07:25 - Street: 4, Velocity: 48.4
+2023-08-23 21:07:26 - Street: 1, Velocity: 42.1
+2023-08-23 21:07:26 - Street: 2, Velocity: 48.2
+2023-08-23 21:07:27 - Street: 4, Velocity: 48.2
+2023-08-23 21:07:28 - Street: 3, Velocity: 36.0
+2023-08-23 21:07:28 - Street: 1, Velocity: 44.3
+2023-08-23 21:07:28 - Street: 2, Velocity: 47.8
+2023-08-23 21:07:29 - Street: 4, Velocity: 49.0
+2023-08-23 21:07:30 - Street: 1, Velocity: 46.1
+2023-08-23 21:07:30 - Street: 2, Velocity: 47.7
+2023-08-23 21:07:31 - Street: 3, Velocity: 36.22
+2023-08-23 21:07:31 - Street: 4, Velocity: 51.2
+2023-08-23 21:07:32 - Street: 1, Velocity: 45.4
+2023-08-23 21:07:32 - Street: 2, Velocity: 51.0
+2023-08-23 21:07:33 - Street: 4, Velocity: 46.7
+2023-08-23 21:07:34 - Street: 3, Velocity: 37.1
+2023-08-23 21:07:34 - Street: 1, Velocity: 50.3
+2023-08-23 21:07:34 - Street: 2, Velocity: 47.0
+2023-08-23 21:07:35 - Street: 4, Velocity: 47.1
+2023-08-23 21:07:36 - Street: 1, Velocity: 50.2
+2023-08-23 21:07:36 - Street: 2, Velocity: 43.7
+2023-08-23 21:07:37 - Street: 3, Velocity: 40.8
+2023-08-23 21:07:37 - Street: 4, Velocity: 48.5
+2023-08-23 21:07:38 - Street: 1, Velocity: 49.1
+2023-08-23 21:07:38 - Street: 2, Velocity: 39.7
+2023-08-23 21:07:39 - Street: 4, Velocity: 46.8
+2023-08-23 21:07:40 - Street: 3, Velocity: 39.9
+2023-08-23 21:07:40 - Street: 1, Velocity: 46.0
+2023-08-23 21:07:40 - Street: 2, Velocity: 36.8
+2023-08-23 21:07:41 - Street: 4, Velocity: 43.0
+2023-08-23 21:07:42 - Street: 1, Velocity: 43.4
+2023-08-23 21:07:42 - Street: 2, Velocity: 33.5
+2023-08-23 21:07:43 - Street: 3, Velocity: 39.6
+2023-08-23 21:07:43 - Street: 4, Velocity: 40.0
+2023-08-23 21:07:44 - Street: 1, Velocity: 44.8
+2023-08-23 21:07:44 - Street: 2, Velocity: 33.3
+2023-08-23 21:07:45 - Street: 4, Velocity: 38.3
+2023-08-23 21:07:46 - Street: 3, Velocity: 41.4
+2023-08-23 21:07:46 - Street: 1, Velocity: 42.2
+2023-08-23 21:07:46 - Street: 2, Velocity: 32.8
+2023-08-23 21:07:47 - Street: 4, Velocity: 35.8
+2023-08-23 21:07:48 - Street: 1, Velocity: 37.2
+2023-08-23 21:07:48 - Street: 2, Velocity: 35.2
+2023-08-23 21:07:49 - Street: 3, Velocity: 36.8
+2023-08-23 21:07:49 - Street: 4, Velocity: 33.7
+2023-08-23 21:07:50 - Street: 1, Velocity: 35.8
+2023-08-23 21:07:50 - Street: 2, Velocity: 32.9
+2023-08-23 21:07:51 - Street: 4, Velocity: 33.2
+2023-08-23 21:07:52 - Street: 3, Velocity: 37.0
+2023-08-23 21:07:52 - Street: 1, Velocity: 37.3
+2023-08-23 21:07:52 - Street: 2, Velocity: 33.3
+2023-08-23 21:07:53 - Street: 4, Velocity: 33.8
+2023-08-23 22:54:45 - Street: 1, Velocity: 49.0
+2023-08-23 22:54:45 - Street: 2, Velocity: 46.0
+2023-08-23 22:54:46 - Street: 4, Velocity: 29.0
+2023-08-23 22:54:46 - Street: 3, Velocity: 41.0
+2023-08-23 22:54:47 - Street: 1, Velocity: 47.5
+2023-08-23 22:54:47 - Street: 2, Velocity: 56.5
+2023-08-23 22:54:48 - Street: 4, Velocity: 22.0
+2023-08-23 22:54:49 - Street: 1, Velocity: 54.33
+2023-08-23 22:54:49 - Street: 2, Velocity: 51.0
+2023-08-23 22:54:49 - Street: 3, Velocity: 32.0
+2023-08-23 22:54:50 - Street: 4, Velocity: 26.0
+2023-08-23 22:54:51 - Street: 1, Velocity: 54.0
+2023-08-23 22:54:51 - Street: 2, Velocity: 43.5
+2023-08-23 22:54:52 - Street: 4, Velocity: 21.25
+2023-08-23 22:57:27 - Street: 1, Velocity: 52.0
+2023-08-23 22:57:28 - Street: 2, Velocity: 45.0
+2023-08-23 22:57:28 - Street: 4, Velocity: 14.0
+2023-08-23 22:57:28 - High Traffic Volume on Street 4
+2023-08-23 22:57:28 - Street: 3, Velocity: 61.0
+2023-08-23 22:57:29 - Street: 1, Velocity: 36.0
+2023-08-23 22:57:30 - Street: 2, Velocity: 48.5
+2023-08-23 22:57:30 - Street: 4, Velocity: 38.5
+2023-08-23 22:57:31 - Street: 1, Velocity: 33.0
+2023-08-23 22:57:31 - Street: 3, Velocity: 33.0
+2023-08-23 22:57:32 - Street: 2, Velocity: 47.0
+2023-08-23 22:57:32 - Street: 4, Velocity: 35.67
+2023-08-23 22:57:33 - Street: 1, Velocity: 31.0
+2023-08-23 22:57:34 - Street: 2, Velocity: 47.25
+2023-08-23 22:57:34 - Street: 4, Velocity: 35.75
+2023-08-23 22:57:34 - Street: 3, Velocity: 40.33
+2023-08-23 22:57:35 - Street: 1, Velocity: 37.6
+2023-08-23 22:57:36 - Street: 2, Velocity: 40.6
+2023-08-23 22:57:36 - Street: 4, Velocity: 38.2
+2023-08-23 22:57:37 - Street: 1, Velocity: 38.67
+2023-08-23 22:57:37 - Street: 3, Velocity: 44.0
+2023-08-23 22:57:38 - Street: 2, Velocity: 46.33
+2023-08-23 22:57:38 - Street: 4, Velocity: 47.17
+2023-08-23 22:57:39 - Street: 1, Velocity: 38.43
+2023-08-23 22:57:40 - Street: 2, Velocity: 45.86
+2023-08-23 22:57:40 - Street: 4, Velocity: 45.29
+2023-08-23 22:57:40 - Street: 3, Velocity: 38.0
+2023-08-23 22:57:41 - Street: 1, Velocity: 39.25
+2023-08-23 22:57:42 - Street: 2, Velocity: 42.5
+2023-08-23 22:57:42 - Street: 4, Velocity: 44.88
+2023-08-23 22:57:43 - Street: 1, Velocity: 38.44
+2023-08-23 22:57:43 - Street: 3, Velocity: 39.5
+2023-08-23 22:59:58 - Street: 2, Velocity: 70.0
+2023-08-23 22:59:59 - Street: 4, Velocity: 33.0
+2023-08-23 22:59:59 - Street: 1, Velocity: 37.0
+2023-08-23 23:00:00 - Street: 2, Velocity: 42.0
+2023-08-23 23:00:01 - Street: 4, Velocity: 32.0
+2023-08-23 23:00:01 - Street: 3, Velocity: 6.0
+2023-08-23 23:00:01 - High Traffic Volume on Street 3
+2023-08-23 23:00:01 - Street: 1, Velocity: 45.5
+2023-08-23 23:00:02 - Street: 2, Velocity: 37.67
+2023-08-23 23:00:03 - Street: 4, Velocity: 29.67
+2023-08-23 23:00:03 - High Traffic Volume on Street 4
+2023-08-23 23:00:03 - Street: 1, Velocity: 32.33
+2023-08-23 23:00:04 - Street: 3, Velocity: 30.0
+2023-08-23 23:00:04 - High Traffic Volume on Street 3
+2023-08-23 23:00:04 - Street: 2, Velocity: 37.5
+2023-08-23 23:00:05 - Street: 4, Velocity: 31.0
+2023-08-23 23:00:05 - Street: 1, Velocity: 34.0
+2023-08-23 23:00:06 - Street: 2, Velocity: 33.8
+2023-08-23 23:00:07 - Street: 4, Velocity: 25.8
+2023-08-23 23:00:07 - High Traffic Volume on Street 4
+2023-08-23 23:00:07 - Street: 3, Velocity: 35.67
+2023-08-23 23:00:07 - Street: 1, Velocity: 28.2
+2023-08-23 23:00:07 - High Traffic Volume on Street 1
+2023-08-23 23:00:08 - Street: 2, Velocity: 29.0
+2023-08-23 23:00:08 - High Traffic Volume on Street 2
+2023-08-23 23:00:09 - Street: 4, Velocity: 26.33
+2023-08-23 23:00:09 - High Traffic Volume on Street 4
+2023-08-23 23:00:09 - Street: 1, Velocity: 24.67
+2023-08-23 23:00:09 - High Traffic Volume on Street 1
+2023-08-23 23:00:10 - Street: 3, Velocity: 34.0
+2023-08-23 23:00:10 - Street: 2, Velocity: 31.14
+2023-08-23 23:00:11 - Street: 4, Velocity: 31.0
+2023-08-23 23:00:11 - Street: 1, Velocity: 29.0
+2023-08-23 23:00:11 - High Traffic Volume on Street 1
+2023-08-23 23:00:12 - Street: 2, Velocity: 30.75
+2023-08-23 23:00:13 - Street: 4, Velocity: 29.0
+2023-08-23 23:00:13 - High Traffic Volume on Street 4
+2023-08-23 23:00:13 - Street: 3, Velocity: 32.2
+2023-08-23 23:00:13 - Street: 1, Velocity: 27.62
+2023-08-23 23:00:13 - High Traffic Volume on Street 1
+2023-08-23 23:00:14 - Street: 2, Velocity: 28.0
+2023-08-23 23:00:14 - High Traffic Volume on Street 2
+2023-08-23 23:00:15 - Street: 4, Velocity: 35.0
+2023-08-23 23:00:15 - Street: 1, Velocity: 28.78
+2023-08-23 23:00:15 - High Traffic Volume on Street 1
+2023-08-23 23:00:16 - Street: 3, Velocity: 34.17
+2023-08-23 23:01:28 - Street: 1, Velocity: 56.0
+2023-08-23 23:01:30 - Street: 1, Velocity: 57.0
+2023-08-23 23:01:32 - Street: 1, Velocity: 54.33
+2023-08-23 23:01:34 - Street: 1, Velocity: 50.75
+2023-08-23 23:01:36 - Street: 1, Velocity: 54.0
+2023-08-23 23:01:37 - Street: 2, Velocity: 56.0
+2023-08-23 23:01:38 - Street: 1, Velocity: 55.33
+2023-08-23 23:01:39 - Street: 2, Velocity: 46.0
+2023-08-23 23:01:40 - Street: 1, Velocity: 57.29
+2023-08-23 23:01:41 - Street: 2, Velocity: 40.33
+2023-08-23 23:01:42 - Street: 1, Velocity: 53.5
+2023-08-23 23:01:43 - Street: 2, Velocity: 38.25
+2023-08-23 23:01:44 - Street: 1, Velocity: 54.56
+2023-08-23 23:01:45 - Street: 2, Velocity: 38.4
+2023-08-23 23:01:46 - Street: 1, Velocity: 53.2
+2023-08-23 23:01:47 - Street: 2, Velocity: 38.0
+2023-08-23 23:01:48 - Street: 1, Velocity: 52.3
+2023-08-23 23:01:49 - Street: 2, Velocity: 37.0
+2023-08-23 23:01:50 - Street: 1, Velocity: 50.2
+2023-08-23 23:01:51 - Street: 2, Velocity: 36.25
+2023-08-23 23:01:52 - Street: 1, Velocity: 50.6
+2023-08-23 23:01:53 - Street: 2, Velocity: 37.44
+2023-08-23 23:01:54 - Street: 1, Velocity: 50.7
+2023-08-23 23:01:55 - Street: 2, Velocity: 38.6
+2023-08-23 23:01:56 - Street: 1, Velocity: 47.1
+2023-08-23 23:01:57 - Street: 2, Velocity: 33.5
+2023-08-23 23:01:58 - Street: 1, Velocity: 46.7
+2023-08-23 23:01:59 - Street: 2, Velocity: 36.5
+2023-08-23 23:02:00 - Street: 1, Velocity: 41.6
+2023-08-23 23:02:02 - Street: 1, Velocity: 45.7
+2023-08-23 23:02:04 - Street: 1, Velocity: 39.9
+2023-08-23 23:02:06 - Street: 1, Velocity: 37.1
+2023-08-23 23:02:08 - Street: 1, Velocity: 37.4
+2023-08-23 23:03:00 - Street: 2, Velocity: 69.0
+2023-08-23 23:03:00 - Street: 3, Velocity: 55.0
+2023-08-23 23:03:01 - Street: 4, Velocity: 32.0
+2023-08-23 23:03:01 - Street: 1, Velocity: 5.0
+2023-08-23 23:03:01 - High Traffic Volume on Street 1
+2023-08-23 23:08:36 - Street: 3, Velocity: 53.0
+2023-08-23 23:08:36 - Adjusting Signal Timing for Semaforo 3: New Open Time = 19.0 seconds
+2023-08-23 23:08:36 - Street: 4, Velocity: 44.0
+2023-08-23 23:08:36 - Street: 1, Velocity: 62.0
+2023-08-23 23:08:36 - Adjusting Signal Timing for Semaforo 1: New Open Time = 18.0 seconds
+2023-08-23 23:08:38 - Street: 2, Velocity: 25.0
+2023-08-23 23:08:38 - High Traffic Volume on Street 2
+2023-08-23 23:08:38 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:08:38 - Street: 4, Velocity: 36.0
+2023-08-23 23:08:38 - Street: 1, Velocity: 52.5
+2023-08-23 23:08:38 - Adjusting Signal Timing for Semaforo 1: New Open Time = 35.0 seconds
+2023-08-23 23:08:39 - Street: 3, Velocity: 46.0
+2023-08-23 23:08:40 - Street: 2, Velocity: 33.0
+2023-08-23 23:08:40 - Street: 4, Velocity: 37.33
+2023-08-23 23:08:40 - Street: 1, Velocity: 43.67
+2023-08-23 23:08:42 - Street: 2, Velocity: 31.0
+2023-08-23 23:08:42 - Street: 3, Velocity: 37.0
+2023-08-23 23:08:42 - Street: 4, Velocity: 38.5
+2023-08-23 23:08:42 - Street: 1, Velocity: 42.0
+2023-08-23 23:08:44 - Street: 2, Velocity: 30.75
+2023-08-23 23:08:44 - Street: 4, Velocity: 41.8
+2023-08-23 23:08:44 - Street: 1, Velocity: 39.8
+2023-08-23 23:08:45 - Street: 3, Velocity: 30.0
+2023-08-23 23:08:45 - High Traffic Volume on Street 3
+2023-08-23 23:08:45 - Adjusting Signal Timing for Semaforo 3: New Open Time = 38.0 seconds
+2023-08-23 23:08:46 - Street: 2, Velocity: 32.8
+2023-08-23 23:08:46 - Street: 4, Velocity: 42.83
+2023-08-23 23:08:46 - Street: 1, Velocity: 43.83
+2023-08-23 23:08:48 - Street: 2, Velocity: 34.0
+2023-08-23 23:08:48 - Street: 3, Velocity: 31.0
+2023-08-23 23:08:48 - Street: 4, Velocity: 40.57
+2023-08-23 23:08:48 - Street: 1, Velocity: 41.14
+2023-08-23 23:08:50 - Street: 2, Velocity: 29.86
+2023-08-23 23:08:50 - High Traffic Volume on Street 2
+2023-08-23 23:08:50 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:08:50 - Street: 4, Velocity: 42.0
+2023-08-23 23:08:50 - Street: 1, Velocity: 41.62
+2023-08-23 23:08:51 - Street: 3, Velocity: 35.83
+2023-08-23 23:08:52 - Street: 2, Velocity: 33.0
+2023-08-23 23:08:52 - Street: 4, Velocity: 40.11
+2023-08-23 23:08:52 - Street: 1, Velocity: 38.56
+2023-08-23 23:08:54 - Street: 2, Velocity: 32.67
+2023-08-23 23:08:54 - Street: 3, Velocity: 37.71
+2023-08-23 23:08:54 - Street: 4, Velocity: 41.2
+2023-08-23 23:08:54 - Street: 1, Velocity: 40.6
+2023-08-23 23:08:56 - Street: 2, Velocity: 29.9
+2023-08-23 23:08:56 - High Traffic Volume on Street 2
+2023-08-23 23:08:56 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:08:56 - Street: 4, Velocity: 38.5
+2023-08-23 23:08:56 - Street: 1, Velocity: 38.1
+2023-08-23 23:08:57 - Street: 3, Velocity: 39.62
+2023-08-23 23:08:58 - Street: 2, Velocity: 33.7
+2023-08-23 23:08:58 - Street: 4, Velocity: 38.5
+2023-08-23 23:08:58 - Street: 1, Velocity: 37.9
+2023-08-23 23:09:00 - Street: 2, Velocity: 36.1
+2023-08-23 23:09:00 - Street: 3, Velocity: 40.11
+2023-08-23 23:09:00 - Street: 4, Velocity: 39.4
+2023-08-23 23:09:00 - Street: 1, Velocity: 39.8
+2023-08-23 23:09:02 - Street: 2, Velocity: 36.1
+2023-08-23 23:09:02 - Street: 4, Velocity: 40.7
+2023-08-23 23:09:02 - Street: 1, Velocity: 41.1
+2023-08-23 23:09:03 - Street: 3, Velocity: 39.8
+2023-08-23 23:09:04 - Street: 2, Velocity: 36.0
+2023-08-23 23:09:04 - Street: 4, Velocity: 38.8
+2023-08-23 23:09:04 - Street: 1, Velocity: 43.6
+2023-08-23 23:09:06 - Street: 2, Velocity: 34.7
+2023-08-23 23:09:06 - Street: 3, Velocity: 37.9
+2023-08-23 23:09:06 - Street: 4, Velocity: 37.0
+2023-08-23 23:09:06 - Street: 1, Velocity: 39.3
+2023-08-23 23:09:08 - Street: 2, Velocity: 34.0
+2023-08-23 23:09:08 - Street: 4, Velocity: 40.2
+2023-08-23 23:09:08 - Street: 1, Velocity: 41.3
+2023-08-23 23:09:09 - Street: 3, Velocity: 38.9
+2023-08-23 23:09:10 - Street: 2, Velocity: 37.4
+2023-08-23 23:09:10 - Street: 4, Velocity: 39.2
+2023-08-23 23:09:10 - Street: 1, Velocity: 41.3
+2023-08-23 23:09:12 - Street: 2, Velocity: 37.5
+2023-08-23 23:09:12 - Semaphors with ID 1 and 3 turned into red.
+2023-08-23 23:09:12 - Semaphors with ID 2 and 4 turned into green.
+2023-08-23 23:09:12 - Street: 3, Velocity: 39.8
+2023-08-23 23:12:43 - Street: 2, Velocity: 35.0
+2023-08-23 23:12:44 - Street: 4, Velocity: 27.0
+2023-08-23 23:12:44 - High Traffic Volume on Street 4
+2023-08-23 23:12:44 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-23 23:12:44 - Street: 1, Velocity: 31.0
+2023-08-23 23:12:45 - Street: 2, Velocity: 33.5
+2023-08-23 23:12:45 - Street: 3, Velocity: 10.0
+2023-08-23 23:12:45 - High Traffic Volume on Street 3
+2023-08-23 23:12:45 - Adjusting Signal Timing for Semaforo 3: New Open Time = 40.0 seconds
+2023-08-23 23:12:46 - Street: 4, Velocity: 47.0
+2023-08-23 23:12:46 - Street: 1, Velocity: 31.5
+2023-08-23 23:12:47 - Street: 2, Velocity: 46.33
+2023-08-23 23:12:48 - Street: 4, Velocity: 46.33
+2023-08-23 23:12:48 - Street: 1, Velocity: 36.67
+2023-08-23 23:12:48 - Street: 3, Velocity: 21.5
+2023-08-23 23:12:48 - High Traffic Volume on Street 3
+2023-08-23 23:12:48 - Adjusting Signal Timing for Semaforo 3: New Open Time = 96.0 seconds
+2023-08-23 23:12:49 - Street: 2, Velocity: 55.25
+2023-08-23 23:12:49 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:12:50 - Street: 4, Velocity: 42.5
+2023-08-23 23:12:50 - Street: 1, Velocity: 43.25
+2023-08-23 23:12:51 - Street: 2, Velocity: 51.0
+2023-08-23 23:12:51 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:12:51 - Street: 3, Velocity: 31.0
+2023-08-23 23:12:52 - Street: 4, Velocity: 43.0
+2023-08-23 23:12:52 - Street: 1, Velocity: 37.4
+2023-08-23 23:12:53 - Street: 2, Velocity: 48.67
+2023-08-23 23:12:54 - Street: 4, Velocity: 41.67
+2023-08-23 23:12:54 - Semaphors with ID 1 and 3 turned into red.
+2023-08-23 23:12:54 - Semaphors with ID 2 and 4 turned into green.
+2023-08-23 23:12:54 - Street: 1, Velocity: 38.33
+2023-08-23 23:16:35 - Street: 4, Velocity: 38.0
+2023-08-23 23:16:36 - Street: 1, Velocity: 30.0
+2023-08-23 23:16:36 - High Traffic Volume on Street 1
+2023-08-23 23:16:36 - Adjusting Signal Timing for Semaforo 1: New Open Time = 20.0 seconds
+2023-08-23 23:16:36 - Street: 3, Velocity: 68.0
+2023-08-23 23:16:36 - Adjusting Signal Timing for Semaforo 3: New Open Time = 17.0 seconds
+2023-08-23 23:16:37 - Street: 2, Velocity: 73.0
+2023-08-23 23:16:37 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:16:37 - Street: 4, Velocity: 44.5
+2023-08-23 23:16:38 - Street: 1, Velocity: 32.5
+2023-08-23 23:16:39 - Street: 2, Velocity: 62.5
+2023-08-23 23:16:39 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:16:39 - Street: 3, Velocity: 61.0
+2023-08-23 23:16:39 - Adjusting Signal Timing for Semaforo 3: New Open Time = 31.0 seconds
+2023-08-23 23:16:39 - Street: 4, Velocity: 43.33
+2023-08-23 23:16:40 - Street: 1, Velocity: 30.67
+2023-08-23 23:16:41 - Street: 2, Velocity: 57.0
+2023-08-23 23:16:41 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:16:41 - Street: 4, Velocity: 38.0
+2023-08-23 23:16:42 - Street: 1, Velocity: 27.25
+2023-08-23 23:16:42 - High Traffic Volume on Street 1
+2023-08-23 23:16:42 - Adjusting Signal Timing for Semaforo 1: New Open Time = 42.0 seconds
+2023-08-23 23:16:42 - Street: 3, Velocity: 65.33
+2023-08-23 23:16:42 - Adjusting Signal Timing for Semaforo 3: New Open Time = 55.0 seconds
+2023-08-23 23:16:43 - Street: 2, Velocity: 49.5
+2023-08-23 23:16:43 - Street: 4, Velocity: 41.8
+2023-08-23 23:16:44 - Street: 1, Velocity: 31.0
+2023-08-23 23:16:45 - Street: 2, Velocity: 44.2
+2023-08-23 23:16:45 - Street: 3, Velocity: 60.75
+2023-08-23 23:16:45 - Adjusting Signal Timing for Semaforo 3: New Open Time = 100.0 seconds
+2023-08-23 23:16:45 - Street: 4, Velocity: 43.83
+2023-08-23 23:16:46 - Street: 1, Velocity: 30.0
+2023-08-23 23:16:46 - High Traffic Volume on Street 1
+2023-08-23 23:16:46 - Adjusting Signal Timing for Semaforo 1: New Open Time = 84.0 seconds
+2023-08-23 23:16:47 - Street: 2, Velocity: 41.0
+2023-08-23 23:16:47 - Street: 4, Velocity: 41.71
+2023-08-23 23:16:48 - Street: 1, Velocity: 28.14
+2023-08-23 23:16:48 - High Traffic Volume on Street 1
+2023-08-23 23:16:48 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:16:48 - Street: 3, Velocity: 55.0
+2023-08-23 23:16:48 - Maximum Green Time Exceeded for Semaforo 3. No further adjustment.
+2023-08-23 23:16:49 - Street: 2, Velocity: 37.71
+2023-08-23 23:16:49 - Street: 4, Velocity: 43.38
+2023-08-23 23:16:50 - Street: 1, Velocity: 30.0
+2023-08-23 23:16:50 - High Traffic Volume on Street 1
+2023-08-23 23:16:50 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:16:51 - Street: 2, Velocity: 38.75
+2023-08-23 23:16:51 - Street: 3, Velocity: 55.67
+2023-08-23 23:16:51 - Maximum Green Time Exceeded for Semaforo 3. No further adjustment.
+2023-08-23 23:16:51 - Street: 4, Velocity: 44.33
+2023-08-23 23:16:52 - Street: 1, Velocity: 29.44
+2023-08-23 23:16:52 - High Traffic Volume on Street 1
+2023-08-23 23:16:52 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:16:53 - Street: 2, Velocity: 37.78
+2023-08-23 23:16:53 - Street: 4, Velocity: 43.7
+2023-08-23 23:16:54 - Street: 1, Velocity: 27.5
+2023-08-23 23:16:54 - High Traffic Volume on Street 1
+2023-08-23 23:16:54 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:16:54 - Street: 3, Velocity: 48.86
+2023-08-23 23:16:55 - Street: 2, Velocity: 37.3
+2023-08-23 23:16:55 - Street: 4, Velocity: 41.9
+2023-08-23 23:16:56 - Street: 1, Velocity: 27.5
+2023-08-23 23:16:56 - High Traffic Volume on Street 1
+2023-08-23 23:16:56 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:16:57 - Street: 2, Velocity: 34.0
+2023-08-23 23:16:57 - Street: 3, Velocity: 49.5
+2023-08-23 23:16:57 - Street: 4, Velocity: 40.7
+2023-08-23 23:16:58 - Street: 1, Velocity: 26.0
+2023-08-23 23:16:58 - High Traffic Volume on Street 1
+2023-08-23 23:16:58 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:16:59 - Street: 2, Velocity: 33.6
+2023-08-23 23:16:59 - Street: 4, Velocity: 40.2
+2023-08-23 23:17:00 - Street: 1, Velocity: 24.8
+2023-08-23 23:17:00 - High Traffic Volume on Street 1
+2023-08-23 23:17:00 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:17:00 - Street: 3, Velocity: 47.44
+2023-08-23 23:17:01 - Street: 2, Velocity: 32.1
+2023-08-23 23:17:01 - Street: 4, Velocity: 41.6
+2023-08-23 23:17:02 - Street: 1, Velocity: 26.4
+2023-08-23 23:17:02 - High Traffic Volume on Street 1
+2023-08-23 23:17:02 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:17:03 - Street: 2, Velocity: 30.4
+2023-08-23 23:17:03 - Street: 3, Velocity: 47.8
+2023-08-23 23:17:03 - Street: 4, Velocity: 41.3
+2023-08-23 23:17:04 - Street: 1, Velocity: 23.5
+2023-08-23 23:17:04 - High Traffic Volume on Street 1
+2023-08-23 23:17:04 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:17:05 - Street: 2, Velocity: 30.4
+2023-08-23 23:17:05 - Street: 4, Velocity: 40.4
+2023-08-23 23:17:06 - Street: 1, Velocity: 25.2
+2023-08-23 23:17:06 - High Traffic Volume on Street 1
+2023-08-23 23:17:06 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:17:06 - Street: 3, Velocity: 41.7
+2023-08-23 23:17:07 - Street: 2, Velocity: 34.6
+2023-08-23 23:17:07 - Street: 4, Velocity: 44.3
+2023-08-23 23:17:08 - Street: 1, Velocity: 28.0
+2023-08-23 23:17:08 - High Traffic Volume on Street 1
+2023-08-23 23:17:08 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:17:09 - Street: 2, Velocity: 35.5
+2023-08-23 23:17:09 - Street: 3, Velocity: 37.8
+2023-08-23 23:17:09 - Street: 4, Velocity: 44.5
+2023-08-23 23:17:10 - Street: 1, Velocity: 26.9
+2023-08-23 23:17:10 - High Traffic Volume on Street 1
+2023-08-23 23:17:10 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:17:11 - Street: 2, Velocity: 36.6
+2023-08-23 23:17:11 - Street: 4, Velocity: 43.5
+2023-08-23 23:17:12 - Street: 1, Velocity: 28.2
+2023-08-23 23:17:12 - High Traffic Volume on Street 1
+2023-08-23 23:17:12 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:17:12 - Street: 3, Velocity: 35.0
+2023-08-23 23:17:13 - Street: 2, Velocity: 41.1
+2023-08-23 23:17:13 - Street: 4, Velocity: 42.6
+2023-08-23 23:17:14 - Street: 1, Velocity: 32.3
+2023-08-23 23:17:15 - Street: 2, Velocity: 43.0
+2023-08-23 23:17:15 - Street: 3, Velocity: 33.7
+2023-08-23 23:17:15 - Street: 4, Velocity: 43.3
+2023-08-23 23:17:16 - Street: 1, Velocity: 33.9
+2023-08-23 23:17:17 - Street: 2, Velocity: 46.8
+2023-08-23 23:17:17 - Street: 4, Velocity: 43.4
+2023-08-23 23:17:18 - Street: 1, Velocity: 34.0
+2023-08-23 23:17:18 - Street: 3, Velocity: 31.9
+2023-08-23 23:17:19 - Street: 2, Velocity: 46.6
+2023-08-23 23:17:19 - Street: 4, Velocity: 42.0
+2023-08-23 23:17:20 - Street: 1, Velocity: 36.9
+2023-08-23 23:17:21 - Street: 2, Velocity: 49.6
+2023-08-23 23:17:21 - Street: 3, Velocity: 32.7
+2023-08-23 23:17:21 - Street: 4, Velocity: 40.9
+2023-08-23 23:17:22 - Street: 1, Velocity: 40.2
+2023-08-23 23:17:23 - Street: 2, Velocity: 55.7
+2023-08-23 23:17:23 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:17:23 - Street: 4, Velocity: 38.7
+2023-08-23 23:17:24 - Street: 3, Velocity: 36.5
+2023-08-23 23:17:25 - Street: 4, Velocity: 37.2
+2023-08-23 23:19:02 - Street: 2, Velocity: 27.0
+2023-08-23 23:19:02 - High Traffic Volume on Street 2
+2023-08-23 23:19:02 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:19:02 - Street: 4, Velocity: 39.0
+2023-08-23 23:19:02 - Street: 1, Velocity: 47.0
+2023-08-23 23:19:04 - Street: 3, Velocity: 59.0
+2023-08-23 23:19:04 - Adjusting Signal Timing for Semaforo 3: New Open Time = 18.0 seconds
+2023-08-23 23:19:04 - Street: 2, Velocity: 37.0
+2023-08-23 23:19:04 - Street: 4, Velocity: 45.5
+2023-08-23 23:19:04 - Street: 1, Velocity: 48.0
+2023-08-23 23:19:06 - Street: 2, Velocity: 29.67
+2023-08-23 23:19:06 - High Traffic Volume on Street 2
+2023-08-23 23:19:06 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:19:06 - Street: 4, Velocity: 47.0
+2023-08-23 23:19:06 - Street: 1, Velocity: 44.33
+2023-08-23 23:19:07 - Street: 3, Velocity: 42.0
+2023-08-23 23:19:08 - Street: 2, Velocity: 30.0
+2023-08-23 23:19:08 - High Traffic Volume on Street 2
+2023-08-23 23:19:08 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:19:08 - Street: 4, Velocity: 45.5
+2023-08-23 23:19:08 - Street: 1, Velocity: 38.75
+2023-08-23 23:19:10 - Street: 3, Velocity: 35.0
+2023-08-23 23:19:10 - Street: 2, Velocity: 35.8
+2023-08-23 23:19:10 - Street: 4, Velocity: 41.4
+2023-08-23 23:19:10 - Street: 1, Velocity: 34.6
+2023-08-23 23:19:12 - Street: 2, Velocity: 41.0
+2023-08-23 23:19:12 - Street: 4, Velocity: 35.67
+2023-08-23 23:19:12 - Semaphors with ID 1 and 3 turned into red.
+2023-08-23 23:19:12 - Semaphors with ID 2 and 4 turned into green.
+2023-08-23 23:19:12 - Street: 1, Velocity: 36.17
+2023-08-23 23:19:13 - Street: 3, Velocity: 34.0
+2023-08-23 23:19:14 - Street: 2, Velocity: 41.86
+2023-08-23 23:19:14 - Street: 4, Velocity: 37.86
+2023-08-23 23:19:14 - Street: 1, Velocity: 39.71
+2023-08-23 23:19:16 - Street: 3, Velocity: 33.0
+2023-08-23 23:19:16 - Street: 2, Velocity: 43.75
+2023-08-23 23:19:16 - Street: 4, Velocity: 39.5
+2023-08-23 23:19:16 - Street: 1, Velocity: 42.38
+2023-08-23 23:19:18 - Street: 2, Velocity: 43.11
+2023-08-23 23:19:18 - Street: 4, Velocity: 40.89
+2023-08-23 23:19:18 - Street: 1, Velocity: 40.67
+2023-08-23 23:19:19 - Street: 3, Velocity: 35.83
+2023-08-23 23:19:20 - Street: 2, Velocity: 45.2
+2023-08-23 23:19:20 - Street: 4, Velocity: 38.0
+2023-08-23 23:19:20 - Street: 1, Velocity: 39.6
+2023-08-23 23:19:22 - Street: 3, Velocity: 37.0
+2023-08-23 23:19:22 - Street: 2, Velocity: 45.8
+2023-08-23 23:19:22 - Street: 4, Velocity: 38.1
+2023-08-23 23:19:22 - Street: 1, Velocity: 38.4
+2023-08-23 23:19:24 - Street: 2, Velocity: 44.7
+2023-08-23 23:19:24 - Street: 4, Velocity: 39.8
+2023-08-23 23:19:24 - Street: 1, Velocity: 36.9
+2023-08-23 23:19:25 - Street: 3, Velocity: 36.38
+2023-08-23 23:19:26 - Street: 2, Velocity: 47.0
+2023-08-23 23:19:26 - Street: 4, Velocity: 37.1
+2023-08-23 23:19:26 - Street: 1, Velocity: 39.6
+2023-08-23 23:19:28 - Street: 3, Velocity: 36.33
+2023-08-23 23:19:28 - Street: 2, Velocity: 49.5
+2023-08-23 23:19:28 - Street: 4, Velocity: 36.9
+2023-08-23 23:19:28 - Street: 1, Velocity: 44.1
+2023-08-23 23:19:30 - Street: 2, Velocity: 51.3
+2023-08-23 23:19:30 - Adjusting Signal Timing for Semaforo 2: New Open Time = 20.0 seconds
+2023-08-23 23:19:30 - Semaphors with ID 4 and 2 turned into red.
+2023-08-23 23:19:30 - Semaphors with ID 1 and 3 turned into green.
+2023-08-23 23:19:30 - Street: 4, Velocity: 36.8
+2023-08-23 23:19:30 - Street: 1, Velocity: 46.0
+2023-08-23 23:19:31 - Street: 3, Velocity: 36.1
+2023-08-23 23:19:32 - Street: 2, Velocity: 48.0
+2023-08-23 23:19:32 - Street: 4, Velocity: 41.6
+2023-08-23 23:19:32 - Street: 1, Velocity: 44.6
+2023-08-23 23:19:34 - Street: 3, Velocity: 33.2
+2023-08-23 23:19:34 - Street: 2, Velocity: 51.3
+2023-08-23 23:19:34 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:19:34 - Street: 4, Velocity: 37.2
+2023-08-23 23:29:06 - Street: 4, Velocity: 46.0
+2023-08-23 23:29:07 - Street: 3, Velocity: 34.0
+2023-08-23 23:29:08 - Street: 1, Velocity: 39.0
+2023-08-23 23:29:08 - Street: 2, Velocity: 42.0
+2023-08-23 23:29:08 - Street: 4, Velocity: 40.5
+2023-08-23 23:29:10 - Street: 3, Velocity: 37.5
+2023-08-23 23:29:10 - Street: 1, Velocity: 32.0
+2023-08-23 23:29:10 - Street: 2, Velocity: 47.0
+2023-08-23 23:29:10 - Street: 4, Velocity: 39.67
+2023-08-23 23:29:12 - Street: 1, Velocity: 34.67
+2023-08-23 23:29:12 - Street: 2, Velocity: 40.33
+2023-08-23 23:29:12 - Street: 4, Velocity: 33.5
+2023-08-23 23:29:13 - Street: 3, Velocity: 35.33
+2023-08-23 23:29:14 - Street: 1, Velocity: 29.75
+2023-08-23 23:29:14 - High Traffic Volume on Street 1
+2023-08-23 23:29:14 - Adjusting Signal Timing for Semaforo 1: New Open Time = 20.0 seconds
+2023-08-23 23:29:14 - Street: 2, Velocity: 40.5
+2023-08-23 23:29:14 - Street: 4, Velocity: 38.0
+2023-08-23 23:29:16 - Street: 3, Velocity: 37.0
+2023-08-23 23:29:16 - Street: 1, Velocity: 27.8
+2023-08-23 23:29:16 - High Traffic Volume on Street 1
+2023-08-23 23:29:16 - Adjusting Signal Timing for Semaforo 1: New Open Time = 42.0 seconds
+2023-08-23 23:29:16 - Street: 2, Velocity: 41.4
+2023-08-23 23:29:16 - Street: 4, Velocity: 41.33
+2023-08-23 23:29:18 - Semaphors with ID 3 and 1 turned into red.
+2023-08-23 23:29:18 - Semaphors with ID 4 and 2 turned into green.
+2023-08-23 23:29:18 - Street: 1, Velocity: 29.67
+2023-08-23 23:29:18 - High Traffic Volume on Street 1
+2023-08-23 23:29:18 - Invalid Additional Time or Semaforo 1 is not open. No adjustment.
+2023-08-23 23:29:18 - Street: 2, Velocity: 41.83
+2023-08-23 23:29:18 - Street: 4, Velocity: 38.29
+2023-08-23 23:29:19 - Street: 3, Velocity: 37.4
+2023-08-23 23:29:20 - Street: 1, Velocity: 29.86
+2023-08-23 23:29:20 - High Traffic Volume on Street 1
+2023-08-23 23:29:20 - Invalid Additional Time or Semaforo 1 is not open. No adjustment.
+2023-08-23 23:29:20 - Street: 2, Velocity: 42.86
+2023-08-23 23:29:20 - Street: 4, Velocity: 37.75
+2023-08-23 23:29:22 - Street: 3, Velocity: 36.5
+2023-08-23 23:29:22 - Street: 1, Velocity: 31.88
+2023-08-23 23:29:59 - Street: 3, Velocity: 56.0
+2023-08-23 23:29:59 - Adjusting Signal Timing for Semaforo 3: New Open Time = 19.0 seconds
+2023-08-23 23:29:59 - Street: 4, Velocity: 47.0
+2023-08-23 23:30:00 - Street: 2, Velocity: 61.0
+2023-08-23 23:30:00 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:30:00 - Street: 1, Velocity: 63.0
+2023-08-23 23:30:00 - Adjusting Signal Timing for Semaforo 1: New Open Time = 18.0 seconds
+2023-08-23 23:30:01 - Street: 4, Velocity: 50.0
+2023-08-23 23:30:01 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-23 23:30:02 - Street: 3, Velocity: 46.5
+2023-08-23 23:30:02 - Street: 2, Velocity: 64.5
+2023-08-23 23:30:02 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:30:02 - Street: 1, Velocity: 41.0
+2023-08-23 23:30:03 - Street: 4, Velocity: 43.67
+2023-08-23 23:30:04 - Street: 2, Velocity: 55.67
+2023-08-23 23:30:04 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:30:04 - Street: 1, Velocity: 29.0
+2023-08-23 23:30:04 - High Traffic Volume on Street 1
+2023-08-23 23:30:04 - Adjusting Signal Timing for Semaforo 1: New Open Time = 37.0 seconds
+2023-08-23 23:30:05 - Street: 3, Velocity: 52.33
+2023-08-23 23:30:05 - Adjusting Signal Timing for Semaforo 3: New Open Time = 37.0 seconds
+2023-08-23 23:30:05 - Street: 4, Velocity: 47.75
+2023-08-23 23:30:06 - Street: 2, Velocity: 53.25
+2023-08-23 23:30:06 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:30:06 - Street: 1, Velocity: 28.0
+2023-08-23 23:30:06 - High Traffic Volume on Street 1
+2023-08-23 23:30:06 - Adjusting Signal Timing for Semaforo 1: New Open Time = 77.0 seconds
+2023-08-23 23:30:07 - Street: 4, Velocity: 51.0
+2023-08-23 23:30:07 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-23 23:30:08 - Street: 3, Velocity: 53.25
+2023-08-23 23:30:08 - Adjusting Signal Timing for Semaforo 3: New Open Time = 72.0 seconds
+2023-08-23 23:30:08 - Street: 2, Velocity: 43.8
+2023-08-23 23:30:08 - Street: 1, Velocity: 31.6
+2023-08-23 23:30:09 - Street: 4, Velocity: 48.0
+2023-08-23 23:30:10 - Street: 2, Velocity: 44.67
+2023-08-23 23:30:10 - Street: 1, Velocity: 33.5
+2023-08-23 23:30:11 - Street: 3, Velocity: 53.0
+2023-08-23 23:30:11 - Maximum Green Time Exceeded for Semaforo 3. No further adjustment.
+2023-08-23 23:30:11 - Street: 4, Velocity: 44.57
+2023-08-23 23:30:12 - Street: 2, Velocity: 46.14
+2023-08-23 23:30:12 - Street: 1, Velocity: 36.86
+2023-08-23 23:30:13 - Street: 4, Velocity: 43.62
+2023-08-23 23:30:14 - Street: 3, Velocity: 56.67
+2023-08-23 23:30:14 - Maximum Green Time Exceeded for Semaforo 3. No further adjustment.
+2023-08-23 23:30:14 - Street: 2, Velocity: 48.62
+2023-08-23 23:30:14 - Street: 1, Velocity: 35.5
+2023-08-23 23:30:15 - Street: 4, Velocity: 44.78
+2023-08-23 23:30:16 - Street: 2, Velocity: 43.78
+2023-08-23 23:30:16 - Street: 1, Velocity: 32.11
+2023-08-23 23:30:17 - Street: 3, Velocity: 52.86
+2023-08-23 23:30:17 - Maximum Green Time Exceeded for Semaforo 3. No further adjustment.
+2023-08-23 23:30:17 - Street: 4, Velocity: 43.3
+2023-08-23 23:30:18 - Street: 2, Velocity: 43.7
+2023-08-23 23:30:18 - Street: 1, Velocity: 33.8
+2023-08-23 23:30:19 - Street: 4, Velocity: 43.9
+2023-08-23 23:30:20 - Street: 3, Velocity: 50.38
+2023-08-23 23:30:20 - Maximum Green Time Exceeded for Semaforo 3. No further adjustment.
+2023-08-23 23:30:20 - Street: 2, Velocity: 43.7
+2023-08-23 23:30:20 - Street: 1, Velocity: 30.9
+2023-08-23 23:30:21 - Street: 4, Velocity: 42.4
+2023-08-23 23:30:22 - Street: 2, Velocity: 41.8
+2023-08-23 23:30:22 - Street: 1, Velocity: 32.1
+2023-08-23 23:30:23 - Street: 3, Velocity: 48.56
+2023-08-23 23:30:23 - Street: 4, Velocity: 42.5
+2023-08-23 23:30:25 - Street: 4, Velocity: 36.0
+2023-08-23 23:30:26 - Street: 3, Velocity: 77.0
+2023-08-23 23:30:26 - Adjusting Signal Timing for Semaforo 3: New Open Time = 16.0 seconds
+2023-08-23 23:30:26 - Street: 2, Velocity: 33.0
+2023-08-23 23:30:26 - Street: 1, Velocity: 38.0
+2023-08-23 23:30:27 - Street: 4, Velocity: 44.0
+2023-08-23 23:30:28 - Street: 2, Velocity: 38.0
+2023-08-23 23:30:28 - Street: 1, Velocity: 48.0
+2023-08-23 23:30:29 - Street: 3, Velocity: 42.0
+2023-08-23 23:30:29 - Street: 4, Velocity: 51.33
+2023-08-23 23:30:29 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-23 23:30:30 - Street: 2, Velocity: 38.0
+2023-08-23 23:30:30 - Street: 1, Velocity: 34.33
+2023-08-23 23:30:31 - Street: 4, Velocity: 52.75
+2023-08-23 23:30:31 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-23 23:30:32 - Street: 3, Velocity: 40.0
+2023-08-23 23:30:32 - Street: 2, Velocity: 44.75
+2023-08-23 23:30:32 - Street: 1, Velocity: 29.75
+2023-08-23 23:30:32 - High Traffic Volume on Street 1
+2023-08-23 23:30:32 - Adjusting Signal Timing for Semaforo 1: New Open Time = 20.0 seconds
+2023-08-23 23:30:33 - Street: 4, Velocity: 48.6
+2023-08-23 23:30:34 - Street: 2, Velocity: 45.4
+2023-08-23 23:30:34 - Street: 1, Velocity: 33.2
+2023-08-23 23:30:35 - Street: 3, Velocity: 35.0
+2023-08-23 23:30:35 - Street: 4, Velocity: 48.83
+2023-08-23 23:30:36 - Street: 2, Velocity: 44.67
+2023-08-23 23:30:36 - Street: 1, Velocity: 32.67
+2023-08-23 23:30:37 - Street: 4, Velocity: 47.43
+2023-08-23 23:30:38 - Street: 3, Velocity: 32.4
+2023-08-23 23:30:38 - Street: 2, Velocity: 43.14
+2023-08-23 23:30:38 - Street: 1, Velocity: 31.14
+2023-08-23 23:30:39 - Street: 4, Velocity: 47.25
+2023-08-23 23:30:40 - Street: 2, Velocity: 45.88
+2023-08-23 23:30:40 - Street: 1, Velocity: 32.0
+2023-08-23 23:30:41 - Street: 3, Velocity: 33.33
+2023-08-23 23:30:41 - Street: 4, Velocity: 48.56
+2023-08-23 23:30:42 - Semaphors with ID 3 and 1 turned into red.
+2023-08-23 23:30:42 - Semaphors with ID 4 and 2 turned into green.
+2023-08-23 23:30:42 - Street: 2, Velocity: 43.22
+2023-08-23 23:30:42 - Street: 1, Velocity: 31.44
+2023-08-23 23:30:43 - Street: 4, Velocity: 50.3
+2023-08-23 23:30:43 - Adjusting Signal Timing for Semaforo 4: New Open Time = 20.0 seconds
+2023-08-23 23:30:44 - Street: 3, Velocity: 31.29
+2023-08-23 23:30:44 - Street: 2, Velocity: 41.6
+2023-08-23 23:30:44 - Street: 1, Velocity: 32.0
+2023-08-23 23:30:45 - Street: 4, Velocity: 51.0
+2023-08-23 23:30:45 - Adjusting Signal Timing for Semaforo 4: New Open Time = 40.0 seconds
+2023-08-23 23:30:46 - Street: 2, Velocity: 43.6
+2023-08-23 23:30:46 - Street: 1, Velocity: 33.6
+2023-08-23 23:30:47 - Street: 3, Velocity: 34.0
+2023-08-23 23:30:47 - Street: 4, Velocity: 50.4
+2023-08-23 23:30:47 - Adjusting Signal Timing for Semaforo 4: New Open Time = 80.0 seconds
+2023-08-23 23:30:48 - Street: 2, Velocity: 46.2
+2023-08-23 23:30:48 - Street: 1, Velocity: 32.6
+2023-08-23 23:30:49 - Street: 4, Velocity: 45.0
+2023-08-23 23:30:50 - Street: 3, Velocity: 35.33
+2023-08-23 23:30:50 - Street: 2, Velocity: 47.9
+2023-08-23 23:30:50 - Street: 1, Velocity: 35.7
+2023-08-23 23:30:51 - Street: 4, Velocity: 45.2
+2023-08-23 23:30:52 - Street: 2, Velocity: 44.4
+2023-08-23 23:30:52 - Street: 1, Velocity: 37.2
+2023-08-23 23:30:53 - Street: 3, Velocity: 36.6
+2023-08-23 23:30:53 - Street: 4, Velocity: 45.1
+2023-08-23 23:30:54 - Semaphors with ID 2 and 4 turned into red.
+2023-08-23 23:30:54 - Semaphors with ID 3 and 1 turned into green.
+2023-08-23 23:30:54 - Street: 2, Velocity: 45.1
+2023-08-23 23:30:54 - Street: 1, Velocity: 33.0
+2023-08-23 23:30:55 - Street: 4, Velocity: 43.4
+2023-08-23 23:30:56 - Street: 3, Velocity: 34.0
+2023-08-23 23:30:56 - Street: 2, Velocity: 44.2
+2023-08-23 23:30:56 - Street: 1, Velocity: 33.0
+2023-08-23 23:30:57 - Street: 4, Velocity: 43.4
+2023-08-23 23:30:58 - Street: 2, Velocity: 42.0
+2023-08-23 23:30:58 - Street: 1, Velocity: 33.4
+2023-08-23 23:30:59 - Street: 3, Velocity: 39.7
+2023-08-23 23:30:59 - Street: 4, Velocity: 40.4
+2023-08-23 23:31:00 - Street: 2, Velocity: 39.0
+2023-08-23 23:31:00 - Street: 1, Velocity: 35.7
+2023-08-23 23:31:01 - Street: 4, Velocity: 35.7
+2023-08-23 23:31:02 - Street: 3, Velocity: 41.1
+2023-08-23 23:31:02 - Street: 2, Velocity: 43.6
+2023-08-23 23:31:02 - Street: 1, Velocity: 37.9
+2023-08-23 23:31:03 - Street: 4, Velocity: 37.3
+2023-08-23 23:31:04 - Street: 2, Velocity: 48.1
+2023-08-23 23:31:04 - Street: 1, Velocity: 35.7
+2023-08-23 23:31:05 - Street: 3, Velocity: 41.4
+2023-08-23 23:31:05 - Street: 4, Velocity: 37.6
+2023-08-23 23:31:06 - Street: 2, Velocity: 45.9
+2023-08-23 23:31:06 - Street: 1, Velocity: 34.8
+2023-08-23 23:31:07 - Street: 4, Velocity: 36.7
+2023-08-23 23:31:08 - Street: 3, Velocity: 41.7
+2023-08-23 23:31:08 - Street: 2, Velocity: 40.9
+2023-08-23 23:31:08 - Street: 1, Velocity: 35.2
+2023-08-23 23:31:09 - Street: 4, Velocity: 40.4
+2023-08-23 23:31:10 - Street: 2, Velocity: 39.8
+2023-08-23 23:31:10 - Street: 1, Velocity: 38.5
+2023-08-23 23:31:11 - Street: 3, Velocity: 41.5
+2023-08-23 23:31:11 - Street: 4, Velocity: 38.0
+2023-08-23 23:31:12 - Semaphors with ID 3 and 1 turned into red.
+2023-08-23 23:31:12 - Semaphors with ID 4 and 2 turned into green.
+2023-08-23 23:31:12 - Street: 2, Velocity: 43.6
+2023-08-23 23:31:12 - Street: 1, Velocity: 38.8
+2023-08-23 23:31:13 - Street: 4, Velocity: 38.4
+2023-08-23 23:31:14 - Street: 3, Velocity: 42.6
+2023-08-23 23:31:14 - Street: 2, Velocity: 42.5
+2023-08-23 23:31:14 - Street: 1, Velocity: 41.1
+2023-08-23 23:31:15 - Street: 4, Velocity: 39.9
+2023-08-23 23:31:16 - Street: 2, Velocity: 43.2
+2023-08-23 23:31:16 - Street: 1, Velocity: 44.0
+2023-08-23 23:31:17 - Street: 3, Velocity: 39.0
+2023-08-23 23:31:17 - Street: 4, Velocity: 42.7
+2023-08-23 23:31:18 - Street: 2, Velocity: 42.7
+2023-08-23 23:31:18 - Street: 1, Velocity: 47.9
+2023-08-23 23:31:19 - Street: 4, Velocity: 44.3
+2023-08-23 23:31:20 - Street: 3, Velocity: 35.8
+2023-08-23 23:31:20 - Street: 2, Velocity: 44.1
+2023-08-23 23:31:20 - Street: 1, Velocity: 43.9
+2023-08-23 23:31:21 - Street: 4, Velocity: 47.9
+2023-08-23 23:31:22 - Street: 2, Velocity: 41.5
+2023-08-23 23:31:22 - Street: 1, Velocity: 43.6
+2023-08-23 23:31:23 - Street: 3, Velocity: 35.6
+2023-08-23 23:31:23 - Street: 4, Velocity: 43.6
+2023-08-23 23:31:24 - Semaphors with ID 2 and 4 turned into red.
+2023-08-23 23:31:24 - Semaphors with ID 3 and 1 turned into green.
+2023-08-23 23:31:24 - Street: 2, Velocity: 40.5
+2023-08-23 23:31:24 - Street: 1, Velocity: 45.1
+2023-08-23 23:31:25 - Street: 4, Velocity: 44.0
+2023-08-23 23:31:26 - Street: 3, Velocity: 34.9
+2023-08-23 23:31:26 - Street: 2, Velocity: 41.5
+2023-08-23 23:31:26 - Street: 1, Velocity: 47.4
+2023-08-23 23:31:27 - Street: 4, Velocity: 45.3
+2023-08-23 23:31:28 - Street: 2, Velocity: 42.6
+2023-08-23 23:53:20 - Street: 1, Velocity: 57.0
+2023-08-23 23:53:20 - Adjusting Signal Timing for Semaforo 1: New Open Time = 19.0 seconds
+2023-08-23 23:53:21 - Street: 2, Velocity: 47.0
+2023-08-23 23:53:21 - Street: 4, Velocity: 41.0
+2023-08-23 23:53:21 - Street: 3, Velocity: 36.0
+2023-08-23 23:53:22 - Street: 1, Velocity: 59.5
+2023-08-23 23:53:22 - Adjusting Signal Timing for Semaforo 1: New Open Time = 35.0 seconds
+2023-08-23 23:53:23 - Street: 2, Velocity: 52.0
+2023-08-23 23:53:23 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-23 23:53:23 - Street: 4, Velocity: 38.5
+2023-08-23 23:53:24 - Street: 3, Velocity: 38.5
+2023-08-23 23:53:24 - Street: 1, Velocity: 53.33
+2023-08-23 23:53:24 - Adjusting Signal Timing for Semaforo 1: New Open Time = 68.0 seconds
+2023-08-23 23:53:25 - Street: 2, Velocity: 42.67
+2023-08-23 23:53:25 - Street: 4, Velocity: 41.0
+2023-08-23 23:53:26 - Street: 1, Velocity: 53.75
+2023-08-23 23:53:26 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:53:27 - Street: 2, Velocity: 41.75
+2023-08-23 23:53:27 - Street: 4, Velocity: 37.75
+2023-08-23 23:53:27 - Street: 3, Velocity: 41.67
+2023-08-23 23:53:28 - Street: 1, Velocity: 51.2
+2023-08-23 23:53:28 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-23 23:53:29 - Street: 2, Velocity: 43.8
+2023-08-23 23:53:29 - Street: 4, Velocity: 34.6
+2023-08-23 23:53:30 - Street: 3, Velocity: 32.5
+2023-08-23 23:53:30 - Street: 1, Velocity: 43.5
+2023-08-23 23:53:31 - Street: 2, Velocity: 38.67
+2023-08-23 23:53:31 - Street: 4, Velocity: 32.67
+2023-08-23 23:53:32 - Semaphors with ID 3 and 1 turned into red.
+2023-08-23 23:53:32 - Semaphors with ID 4 and 2 turned into green.
+2023-08-23 23:53:32 - Street: 1, Velocity: 43.14
+2023-08-23 23:53:33 - Street: 2, Velocity: 44.71
+2023-08-23 23:53:33 - Street: 4, Velocity: 33.71
+2023-08-23 23:53:33 - Street: 3, Velocity: 36.2
+2023-08-23 23:53:34 - Street: 1, Velocity: 44.5
+2023-08-23 23:53:35 - Street: 2, Velocity: 43.38
+2023-08-23 23:53:35 - Street: 4, Velocity: 34.12
+2023-08-23 23:53:36 - Street: 3, Velocity: 38.0
+2023-08-23 23:53:36 - Street: 1, Velocity: 45.0
+2023-08-23 23:53:37 - Street: 2, Velocity: 43.11
+2023-08-23 23:53:37 - Street: 4, Velocity: 34.67
+2023-08-23 23:53:38 - Street: 1, Velocity: 42.9
+2023-08-23 23:53:39 - Street: 2, Velocity: 39.7
+2023-08-23 23:53:39 - Street: 4, Velocity: 35.3
+2023-08-23 23:53:39 - Street: 3, Velocity: 39.71
+2023-08-23 23:53:40 - Street: 1, Velocity: 42.3
+2023-08-23 23:53:41 - Street: 2, Velocity: 41.9
+2023-08-23 23:53:41 - Street: 4, Velocity: 33.9
+2023-08-23 23:53:42 - Street: 3, Velocity: 40.38
+2023-08-23 23:53:42 - Street: 1, Velocity: 41.0
+2023-08-23 23:53:43 - Street: 2, Velocity: 39.2
+2023-08-23 23:53:43 - Street: 4, Velocity: 33.7
+2023-08-23 23:53:44 - Street: 1, Velocity: 40.9
+2023-08-23 23:53:45 - Street: 2, Velocity: 40.8
+2023-08-23 23:53:45 - Street: 4, Velocity: 32.2
+2023-08-23 23:53:45 - Street: 3, Velocity: 39.78
+2023-08-23 23:53:46 - Street: 1, Velocity: 41.5
+2023-08-23 23:53:47 - Street: 2, Velocity: 39.0
+2023-08-23 23:53:47 - Street: 4, Velocity: 35.4
+2023-08-23 23:53:48 - Street: 3, Velocity: 42.3
+2023-08-23 23:53:48 - Street: 1, Velocity: 39.9
+2023-08-23 23:53:49 - Street: 2, Velocity: 35.7
+2023-08-23 23:53:49 - Street: 4, Velocity: 42.0
+2023-08-23 23:53:50 - Street: 1, Velocity: 40.8
+2023-08-23 23:53:51 - Street: 2, Velocity: 36.2
+2023-08-23 23:53:51 - Street: 4, Velocity: 41.9
+2023-08-23 23:53:51 - Street: 3, Velocity: 44.1
+2023-08-23 23:53:52 - Street: 1, Velocity: 37.2
+2023-08-23 23:53:53 - Street: 2, Velocity: 30.3
+2023-08-23 23:53:53 - Street: 4, Velocity: 42.1
+2023-08-23 23:53:54 - Street: 3, Velocity: 42.1
+2023-08-23 23:53:54 - Street: 1, Velocity: 36.3
+2023-08-23 23:53:55 - Street: 2, Velocity: 32.2
+2023-08-23 23:53:55 - Street: 4, Velocity: 41.8
+2023-08-23 23:53:56 - Street: 1, Velocity: 36.5
+2023-08-23 23:53:57 - Street: 2, Velocity: 32.9
+2023-08-23 23:53:57 - Street: 4, Velocity: 44.0
+2023-08-23 23:53:57 - Street: 3, Velocity: 44.8
+2023-08-23 23:53:58 - Street: 1, Velocity: 38.5
+2023-08-23 23:53:59 - Street: 2, Velocity: 33.3
+2023-08-23 23:53:59 - Street: 4, Velocity: 44.1
+2023-08-23 23:54:00 - Street: 3, Velocity: 45.8
+2023-08-23 23:54:00 - Street: 1, Velocity: 39.7
+2023-08-23 23:54:01 - Street: 2, Velocity: 31.9
+2023-08-23 23:54:01 - Street: 4, Velocity: 45.8
+2023-08-23 23:54:02 - Street: 1, Velocity: 35.7
+2023-08-23 23:54:03 - Street: 2, Velocity: 31.6
+2023-08-23 23:54:03 - Street: 4, Velocity: 45.0
+2023-08-23 23:54:03 - Street: 3, Velocity: 44.6
+2023-08-23 23:54:04 - Street: 1, Velocity: 34.4
+2023-08-23 23:54:05 - Street: 2, Velocity: 31.8
+2023-08-23 23:54:05 - Street: 4, Velocity: 47.6
+2023-08-23 23:54:06 - Street: 3, Velocity: 42.3
+2023-08-23 23:54:06 - Street: 1, Velocity: 32.6
+2023-08-23 23:54:07 - Street: 2, Velocity: 31.7
+2023-08-23 23:54:07 - Street: 4, Velocity: 47.2
+2023-08-23 23:54:08 - Street: 1, Velocity: 31.7
+2023-08-23 23:54:09 - Street: 2, Velocity: 32.9
+2023-08-23 23:54:09 - Street: 4, Velocity: 43.8
+2023-08-23 23:54:09 - Street: 3, Velocity: 38.2
+2023-08-23 23:54:10 - Street: 1, Velocity: 34.3
+2023-08-23 23:54:11 - Street: 2, Velocity: 35.3
+2023-08-23 23:54:11 - Street: 4, Velocity: 45.1
+2023-08-23 23:54:12 - Street: 3, Velocity: 39.7
+2023-08-23 23:54:12 - Street: 1, Velocity: 38.3
+2023-08-23 23:54:13 - Street: 2, Velocity: 39.5
+2023-08-23 23:54:13 - Street: 4, Velocity: 44.8
+2023-08-23 23:54:14 - Street: 1, Velocity: 37.1
+2023-08-23 23:54:15 - Street: 2, Velocity: 37.7
+2023-08-23 23:54:15 - Street: 4, Velocity: 44.6
+2023-08-23 23:54:15 - Street: 3, Velocity: 41.8
+2023-08-23 23:54:16 - Street: 1, Velocity: 36.7
+2023-08-23 23:54:17 - Street: 2, Velocity: 38.3
+2023-08-23 23:54:17 - Street: 4, Velocity: 42.9
+2023-08-23 23:54:18 - Street: 3, Velocity: 38.9
+2023-08-23 23:54:18 - Street: 1, Velocity: 36.3
+2023-08-23 23:54:19 - Street: 2, Velocity: 39.8
+2023-08-23 23:54:19 - Street: 4, Velocity: 40.8
+2023-08-23 23:54:20 - Street: 1, Velocity: 31.9
+2023-08-23 23:54:21 - Street: 2, Velocity: 35.1
+2023-08-23 23:54:21 - Street: 4, Velocity: 38.9
+2023-08-23 23:54:21 - Street: 3, Velocity: 37.4
+2023-08-23 23:54:22 - Street: 1, Velocity: 33.9
+2023-08-23 23:54:23 - Street: 2, Velocity: 36.6
+2023-08-23 23:54:23 - Street: 4, Velocity: 41.8
+2023-08-23 23:54:24 - Street: 3, Velocity: 39.9
+2023-08-23 23:54:24 - Street: 1, Velocity: 35.3
+2023-08-23 23:54:25 - Street: 2, Velocity: 36.0
+2023-08-23 23:54:25 - Street: 4, Velocity: 38.1
+2023-08-23 23:54:26 - Street: 1, Velocity: 33.6
+2023-08-23 23:54:27 - Street: 2, Velocity: 38.6
+2023-08-23 23:54:27 - Street: 4, Velocity: 34.2
+2023-08-23 23:54:27 - Street: 3, Velocity: 37.8
+2023-08-23 23:54:28 - Street: 1, Velocity: 34.9
+2023-08-23 23:54:29 - Street: 2, Velocity: 39.5
+2023-08-23 23:54:29 - Street: 4, Velocity: 33.3
+2023-08-23 23:54:30 - Street: 3, Velocity: 38.7
+2023-08-23 23:54:30 - Street: 1, Velocity: 31.5
+2023-08-23 23:54:31 - Street: 2, Velocity: 39.6
+2023-08-23 23:54:31 - Street: 4, Velocity: 31.5
+2023-08-23 23:54:32 - Street: 1, Velocity: 29.8
+2023-08-23 23:54:32 - High Traffic Volume on Street 1
+2023-08-23 23:54:32 - Invalid Additional Time or Semaforo 1 is not open. No adjustment.
+2023-08-23 23:54:33 - Street: 2, Velocity: 37.4
+2023-08-23 23:54:33 - Street: 4, Velocity: 30.7
+2023-08-23 23:54:33 - Street: 3, Velocity: 40.1
+2023-08-23 23:54:34 - Street: 1, Velocity: 30.3
+2023-08-23 23:54:35 - Street: 2, Velocity: 37.1
+2023-08-23 23:54:35 - Street: 4, Velocity: 32.7
+2023-08-23 23:54:36 - Street: 3, Velocity: 44.1
+2023-08-23 23:54:36 - Street: 1, Velocity: 29.6
+2023-08-23 23:54:36 - High Traffic Volume on Street 1
+2023-08-23 23:54:36 - Invalid Additional Time or Semaforo 1 is not open. No adjustment.
+2023-08-23 23:54:37 - Street: 2, Velocity: 37.7
+2023-08-23 23:54:37 - Street: 4, Velocity: 32.9
+2023-08-23 23:54:38 - Street: 1, Velocity: 30.0
+2023-08-23 23:54:38 - High Traffic Volume on Street 1
+2023-08-23 23:54:38 - Invalid Additional Time or Semaforo 1 is not open. No adjustment.
+2023-08-23 23:54:39 - Street: 2, Velocity: 39.7
+2023-08-23 23:54:39 - Street: 4, Velocity: 33.4
+2023-08-23 23:54:39 - Street: 3, Velocity: 47.9
+2023-08-23 23:54:40 - Street: 1, Velocity: 33.2
+2023-08-23 23:54:41 - Street: 2, Velocity: 40.9
+2023-08-23 23:54:41 - Street: 4, Velocity: 36.1
+2023-08-23 23:54:42 - Street: 3, Velocity: 45.7
+2023-08-23 23:54:42 - Street: 1, Velocity: 34.5
+2023-08-23 23:54:43 - Street: 2, Velocity: 42.6
+2023-08-23 23:54:43 - Street: 4, Velocity: 35.2
+2023-08-23 23:54:44 - Street: 1, Velocity: 36.7
+2023-08-23 23:54:45 - Street: 2, Velocity: 40.8
+2023-08-23 23:54:45 - Street: 4, Velocity: 38.5
+2023-08-23 23:54:45 - Street: 3, Velocity: 44.8
+2023-08-23 23:54:46 - Street: 1, Velocity: 39.7
+2023-08-23 23:54:47 - Street: 2, Velocity: 38.5
+2023-08-23 23:54:47 - Street: 4, Velocity: 41.6
+2023-08-23 23:54:48 - Street: 3, Velocity: 43.6
+2023-08-23 23:54:48 - Street: 1, Velocity: 40.9
+2023-08-23 23:54:49 - Street: 2, Velocity: 36.6
+2023-08-23 23:54:49 - Street: 4, Velocity: 40.0
+2023-08-24 00:04:58 - Street: 1, Velocity: 52.0
+2023-08-24 00:04:58 - Adjusting Signal Timing for Semaforo 1: New Open Time = 20.0 seconds
+2023-08-24 00:04:58 - Street: 2, Velocity: 21.0
+2023-08-24 00:04:58 - High Traffic Volume on Street 2
+2023-08-24 00:04:58 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-24 00:05:00 - Street: 4, Velocity: 28.0
+2023-08-24 00:05:00 - High Traffic Volume on Street 4
+2023-08-24 00:05:00 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:00 - Street: 1, Velocity: 55.0
+2023-08-24 00:05:00 - Adjusting Signal Timing for Semaforo 1: New Open Time = 38.0 seconds
+2023-08-24 00:05:00 - Street: 2, Velocity: 35.0
+2023-08-24 00:05:01 - Street: 3, Velocity: 23.0
+2023-08-24 00:05:01 - High Traffic Volume on Street 3
+2023-08-24 00:05:01 - Adjusting Signal Timing for Semaforo 3: New Open Time = 23.0 seconds
+2023-08-24 00:05:02 - Street: 4, Velocity: 26.5
+2023-08-24 00:05:02 - High Traffic Volume on Street 4
+2023-08-24 00:05:02 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:02 - Street: 1, Velocity: 57.33
+2023-08-24 00:05:02 - Adjusting Signal Timing for Semaforo 1: New Open Time = 71.0 seconds
+2023-08-24 00:05:02 - Street: 2, Velocity: 28.67
+2023-08-24 00:05:02 - High Traffic Volume on Street 2
+2023-08-24 00:05:02 - Invalid Additional Time or Semaforo 2 is not open. No adjustment.
+2023-08-24 00:05:04 - Street: 3, Velocity: 37.5
+2023-08-24 00:05:04 - Street: 4, Velocity: 32.67
+2023-08-24 00:05:04 - Street: 1, Velocity: 54.0
+2023-08-24 00:05:04 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-24 00:05:04 - Street: 2, Velocity: 40.5
+2023-08-24 00:05:06 - Street: 4, Velocity: 30.0
+2023-08-24 00:05:06 - High Traffic Volume on Street 4
+2023-08-24 00:05:06 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:06 - Street: 1, Velocity: 51.2
+2023-08-24 00:05:06 - Maximum Green Time Exceeded for Semaforo 1. No further adjustment.
+2023-08-24 00:05:06 - Street: 2, Velocity: 41.8
+2023-08-24 00:05:07 - Street: 3, Velocity: 46.0
+2023-08-24 00:05:08 - Street: 4, Velocity: 33.6
+2023-08-24 00:05:08 - Street: 1, Velocity: 49.17
+2023-08-24 00:05:08 - Street: 2, Velocity: 45.33
+2023-08-24 00:05:10 - Street: 3, Velocity: 46.5
+2023-08-24 00:05:10 - Street: 4, Velocity: 36.17
+2023-08-24 00:05:10 - Street: 1, Velocity: 46.43
+2023-08-24 00:05:10 - Street: 2, Velocity: 44.86
+2023-08-24 00:05:12 - Street: 4, Velocity: 31.71
+2023-08-24 00:05:12 - Street: 1, Velocity: 44.38
+2023-08-24 00:05:12 - Street: 2, Velocity: 44.25
+2023-08-24 00:05:13 - Street: 3, Velocity: 44.8
+2023-08-24 00:05:14 - Street: 4, Velocity: 28.5
+2023-08-24 00:05:14 - High Traffic Volume on Street 4
+2023-08-24 00:05:14 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:14 - Street: 1, Velocity: 46.44
+2023-08-24 00:05:14 - Street: 2, Velocity: 40.89
+2023-08-24 00:05:16 - Street: 3, Velocity: 47.5
+2023-08-24 00:05:16 - Street: 4, Velocity: 29.0
+2023-08-24 00:05:16 - High Traffic Volume on Street 4
+2023-08-24 00:05:16 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:16 - Street: 1, Velocity: 43.7
+2023-08-24 00:05:16 - Street: 2, Velocity: 41.1
+2023-08-24 00:05:18 - Street: 4, Velocity: 26.8
+2023-08-24 00:05:18 - High Traffic Volume on Street 4
+2023-08-24 00:05:18 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:18 - Street: 1, Velocity: 39.8
+2023-08-24 00:05:18 - Street: 2, Velocity: 44.5
+2023-08-24 00:05:19 - Street: 3, Velocity: 47.14
+2023-08-24 00:05:20 - Street: 4, Velocity: 30.0
+2023-08-24 00:05:20 - High Traffic Volume on Street 4
+2023-08-24 00:05:20 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:20 - Street: 1, Velocity: 36.0
+2023-08-24 00:05:20 - Street: 2, Velocity: 41.8
+2023-08-24 00:05:22 - Street: 3, Velocity: 47.38
+2023-08-24 00:05:22 - Street: 4, Velocity: 28.2
+2023-08-24 00:05:22 - High Traffic Volume on Street 4
+2023-08-24 00:05:22 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:22 - Semaphors with ID 3 and 1 turned into red.
+2023-08-24 00:05:22 - Semaphors with ID 4 and 2 turned into green.
+2023-08-24 00:05:22 - Street: 1, Velocity: 34.7
+2023-08-24 00:05:22 - Street: 2, Velocity: 40.7
+2023-08-24 00:05:24 - Street: 4, Velocity: 25.9
+2023-08-24 00:05:24 - High Traffic Volume on Street 4
+2023-08-24 00:05:24 - Adjusting Signal Timing for Semaforo 4: New Open Time = 22.0 seconds
+2023-08-24 00:05:24 - Street: 1, Velocity: 30.8
+2023-08-24 00:05:24 - Street: 2, Velocity: 36.9
+2023-08-24 00:05:25 - Street: 3, Velocity: 44.89
+2023-08-24 00:05:26 - Street: 4, Velocity: 25.4
+2023-08-24 00:05:26 - High Traffic Volume on Street 4
+2023-08-24 00:05:26 - Adjusting Signal Timing for Semaforo 4: New Open Time = 48.0 seconds
+2023-08-24 00:05:26 - Street: 1, Velocity: 30.9
+2023-08-24 00:05:26 - Street: 2, Velocity: 36.0
+2023-08-24 00:05:28 - Street: 3, Velocity: 44.7
+2023-08-24 00:05:28 - Street: 4, Velocity: 25.4
+2023-08-24 00:05:28 - High Traffic Volume on Street 4
+2023-08-24 00:05:28 - Adjusting Signal Timing for Semaforo 4: New Open Time = 105.0 seconds
+2023-08-24 00:05:28 - Street: 1, Velocity: 33.4
+2023-08-24 00:05:28 - Street: 2, Velocity: 34.5
+2023-08-24 00:05:30 - Street: 4, Velocity: 22.1
+2023-08-24 00:05:30 - High Traffic Volume on Street 4
+2023-08-24 00:05:30 - Maximum Green Time Exceeded for Semaforo 4. No further adjustment.
+2023-08-24 00:05:30 - Street: 1, Velocity: 32.8
+2023-08-24 00:05:30 - Street: 2, Velocity: 35.5
+2023-08-24 00:05:31 - Street: 3, Velocity: 44.9
+2023-08-24 00:05:32 - Street: 4, Velocity: 23.9
+2023-08-24 00:05:32 - High Traffic Volume on Street 4
+2023-08-24 00:05:32 - Maximum Green Time Exceeded for Semaforo 4. No further adjustment.
+2023-08-24 00:05:32 - Street: 1, Velocity: 33.0
+2023-08-24 00:05:32 - Street: 2, Velocity: 35.4
+2023-08-24 00:05:34 - Semaphors with ID 2 and 4 turned into red.
+2023-08-24 00:05:34 - Semaphors with ID 3 and 1 turned into green.
+2023-08-24 00:05:34 - Street: 3, Velocity: 43.7
+2023-08-24 00:05:34 - Street: 4, Velocity: 28.2
+2023-08-24 00:05:34 - High Traffic Volume on Street 4
+2023-08-24 00:05:34 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:34 - Street: 1, Velocity: 33.1
+2023-08-24 00:05:34 - Street: 2, Velocity: 39.0
+2023-08-24 00:05:36 - Street: 4, Velocity: 29.8
+2023-08-24 00:05:36 - High Traffic Volume on Street 4
+2023-08-24 00:05:36 - Invalid Additional Time or Semaforo 4 is not open. No adjustment.
+2023-08-24 00:05:36 - Street: 1, Velocity: 32.2
+2023-08-24 00:05:36 - Street: 2, Velocity: 35.4
+2023-08-24 00:05:37 - Street: 3, Velocity: 43.9

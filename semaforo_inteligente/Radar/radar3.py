@@ -52,8 +52,11 @@ class Radar(object):
             
             velocity = round(random.gauss(mu = 40 + traffic_factor, sigma = 15), 2)
             velocity =  velocity if velocity > 5 else 5
+
             msg = {"street": self.__id, "cars": num_cars, "mean velocity": velocity, "time": str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))}
             self.log(msg)
+            print(msg)
+
             self.__client.publish(self.__topic, json.dumps(msg))
             time.sleep(3)
 

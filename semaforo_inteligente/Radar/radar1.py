@@ -44,6 +44,8 @@ class Radar(object):
 
             msg = {"street": self.__id, "cars": num_cars, "mean velocity": velocity, "time": str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))}
             self.log(msg)
+            print(msg)
+
             self.__client.publish(self.__topic, json.dumps(msg))
             time.sleep(2)
 
