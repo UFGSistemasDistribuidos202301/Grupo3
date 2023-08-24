@@ -45,10 +45,18 @@ class Radar(object):
         aleatória entre 20.0 e 80.0 km/h.
         """
         while(True):
-            velocity = random.uniform(20.0, 80.0)
-            num_cars = random.randint(0, 100)
-            msg = {"street": self.__id, "cars": num_cars, "velocity": velocity, "time": str(datetime.now())}
+            num_cars = round(random.gauss(mu = 50, sigma = 20))
+            num_cars = num_cars if num_cars > 1 else 1
+
+            traffic_factor = (-1) * ((num_cars - 50) * 2) / 5
+            
+            velocity = round(random.gauss(mu = 40 + traffic_factor, sigma = 15), 2)
+            velocity =  velocity if velocity > 5 else 5
+
+            msg = {"street": self.__id, "cars": num_cars, "mean velocity": velocity, "time": str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))}
             self.log(msg)
+            print(msg)
+
             self.__client.publish(self.__topic, json.dumps(msg))
             time.sleep(3)
 
